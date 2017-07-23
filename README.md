@@ -4,8 +4,9 @@ springboot 笔记
 
 ## 目录
 
-- `A01-hello-world`(1.4.3)
-- `A02-hibernate`(1.4.3)
+- `helloworld`(1.5.2)
+- `hibernate`(1.5.2)
+- `rabbitmq`(1.5.2)
 
 ## hello world
 
@@ -84,3 +85,61 @@ springboot 笔记
 		User findByUsername(String username);
 	}
 	```
+	
+## rabbitmq
+
+- RabbitMQ是实现了高级消息队列协议(AMQP)的开源消息代理软件，也称为面向消息的中间件。后续操作需要先安装RabbitMQ服务
+
+- 引入对amqp协议支持依赖
+
+    ```xml
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-amqp</artifactId>
+    </dependency>
+    ```
+- 配置rabbitmq服务器链接
+
+    ```yml
+    spring:
+      rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+    ```
+- 配置队列、生产者、消费者
+
+    ```java
+    // 配置队列 hello
+    @Bean
+    public Queue helloQueue() {
+        return new Queue("hello");
+    }
+    
+    // 生产者
+    @Component
+    public class Provider {
+    
+        @Autowired
+        private AmqpTemplate rabbitTemplate;
+    
+        // 发送消息
+        public void send() {
+            String context = "hello " + new Date();
+            System.out.println("Provider: " + context);
+            this.rabbitTemplate.convertAndSend("hello", context);
+        }
+    }
+    
+    // 消费者
+    @Component
+    @RabbitListener(queues = "hello")
+    public class Consumer {
+    
+        @RabbitHandler
+        public void process(String msg) {
+            System.out.println("Consumer: " + msg);
+        }
+    }
+    ```
