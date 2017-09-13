@@ -2,9 +2,26 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <!--在application.properties中使用了mybatis.configuration进行配置，无需此文件(传统配置)-->
 <configuration>
+    <settings>
+        <!--字段格式对应关系：数据库字段为下划线, model字段为驼峰标识(不设定则需要通过resultMap进行转换)-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
     <!--类型别名定义-->
     <typeAliases>
+        <!--定义需要扫描的包-->
+        <package name="cn.aezo.springboot.mybatis.model"/>
+
         <!--定义后可在映射文件中间的parameterType等字段中使用userInfo代替cn.aezo.springboot.mybatis.model.UserInfo-->
-        <typeAlias alias="userInfo" type="cn.aezo.springboot.mybatis.model.UserInfo" />
+        <!--<typeAlias alias="userInfo" type="cn.aezo.springboot.mybatis.model.UserInfo" />-->
     </typeAliases>
+
+    <plugins>
+        <!-- 分页插件 -->
+        <!-- 5.0.0以后使用com.github.pagehelper.PageInterceptor作为拦截器 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--更多参数配置：https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md-->
+            <!--<property name="pageSizeZero" value="true"/>-->
+        </plugin>
+    </plugins>
 </configuration>

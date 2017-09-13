@@ -22,7 +22,7 @@
         from user_info
     </select>
 
-    <!--parameterType传入参数类型. 使用typeAliases进行类型别名映射后可写成resultType="userInfo" -->
+    <!--parameterType传入参数类型. 使用typeAliases进行类型别名映射后可写成resultType="userInfo"(自动扫描包mybatis.type-aliases-package, 默认该包下的类名首字母小写为别名) -->
     <!--如果返回结果使用resultType="cn.aezo.springboot.mybatis.model.UserInfo", 则nickName，groupId则为null. 此处使用resultMap指明字段对应关系-->
     <!-- #{}是实现的是PrepareStatement，${}实现的是普通Statement -->
     <select id="getOne" parameterType="java.lang.Long" resultType="userInfo">

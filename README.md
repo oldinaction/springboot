@@ -351,6 +351,50 @@ post |multipart/form-data  |form-data   |(HttpServletRequest request, User user,
 	</dependency>
 	```
 - 启动类中加：`@MapperScan({"cn.aezo.springboot.mybatis.mapper", "cn.aezo.springboot.mybatis.mapperxml"})` // 声明需要扫描mapper的路径
+- 配置
+
+	```properties
+	# 基于xml配置时需指明映射文件扫描位置
+	mybatis.mapper-locations=classpath:mapper/*.xml
+	# mybatis配置文件位置(mybatis.config-location和mybatis.configuration...不能同时使用), 由于自动配置对插件支持不够暂时使用xml配置
+	mybatis.config-location=classpath:mybatis-config.xml
+	
+	# 字段格式对应关系：数据库字段为下划线, model字段为驼峰标识(不设定则需要通过resultMap进行转换)
+	#mybatis.configuration.map-underscore-to-camel-case=true
+	# 类型别名定义扫描的包(可结合@Alias使用, 默认是类名首字母小写)
+	#mybatis.type-aliases-package=cn.aezo.springboot.mybatis.model
+	```
+- mybatis配置文件: `mybatis-config.xml`
+
+	```xml
+	<?xml version="1.0" encoding="UTF-8" ?>
+	<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+	<!--在application.properties中使用了mybatis.configuration进行配置，无需此文件(传统配置)-->
+	<configuration>
+		<settings>
+			<!--字段格式对应关系：数据库字段为下划线, model字段为驼峰标识(不设定则需要通过resultMap进行转换)-->
+			<setting name="mapUnderscoreToCamelCase" value="true"/>
+		</settings>
+
+		<!--类型别名定义-->
+		<typeAliases>
+			<!--定义需要扫描的包-->
+			<package name="cn.aezo.springboot.mybatis.model"/>
+
+			<!--定义后可在映射文件中间的parameterType等字段中使用userInfo代替cn.aezo.springboot.mybatis.model.UserInfo-->
+			<!--<typeAlias alias="userInfo" type="cn.aezo.springboot.mybatis.model.UserInfo" />-->
+		</typeAliases>
+
+		<plugins>
+			<!-- 分页插件 -->
+			<!-- 5.0.0以后使用com.github.pagehelper.PageInterceptor作为拦截器 -->
+			<plugin interceptor="com.github.pagehelper.PageInterceptor">
+				<!--更多参数配置：https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md-->
+				<!--<property name="pageSizeZero" value="true"/>-->
+			</plugin>
+		</plugins>
+	</configuration>
+	```
 - Model：UserInfo/ClassInfo等无需任何注解.(其中HobbyEnum是一个枚举类)
 - `annotation版本(适合简单业务)`
 	- Dao层：UserMapper.java
@@ -360,13 +404,16 @@ post |multipart/form-data  |form-data   |(HttpServletRequest request, User user,
 		public interface UserMapper {
 			// 此处注入变量可以使用#或者$, 区别：# 创建的是一个prepared statement语句, $ 符创建的是一个inlined statement语句
 			@Select("select * from user_info where nick_name = #{nickName}")
-			// 数据库字段名和model字段名或javaType不一致的均需要@Result转换, 此时获取不到groupId的值
-			@Results({
-					@Result(property = "hobby",  column = "hobby", javaType = HobbyEnum.class),
-					@Result(property = "nickName", column = "nick_name"),
-					// @Result(property = "groupId", column = "group_Id")
-			})
+			// (使用配置<setting name="mapUnderscoreToCamelCase" value="true"/>因此无需转换) 数据库字段名和model字段名或javaType不一致的均需要@Result转换
+			// @Results({
+			//         @Result(property = "hobby",  column = "hobby", javaType = HobbyEnum.class),
+			//         @Result(property = "nickName", column = "nick_name"),
+			//         @Result(property = "groupId", column = "group_Id")
+			// })
 			UserInfo findByNickName(String nickName);
+
+			@Select("select * from user_info")
+			List<UserInfo> findAll();
 
 			@Insert("insert into user_info(nick_name, group_id, hobby) values(#{nickName}, #{groupId}, #{hobby})")
 			void insert(UserInfo userInfo);
@@ -378,9 +425,24 @@ post |multipart/form-data  |form-data   |(HttpServletRequest request, User user,
 			void delete(Long id);
 		}
 		```
+	- 分页
+
+		```java
+		// 分页查询：http://localhost:9526/api/users
+		@RequestMapping(value = "/users")
+		public PageInfo showAllUser(
+				@RequestParam(defaultValue = "1") Integer pageNum,
+				@RequestParam(defaultValue = "5") Integer pageSize) {
+			PageHelper.startPage(pageNum, pageSize); // 默认查询第一页，显示5条数据
+			List<UserInfo> users = userMapper.findAll(); // 第一条执行的SQL语句会被分页，实际上输出users是page对象
+			PageInfo<UserInfo> pageUser = new PageInfo<UserInfo>(users); // 将users对象绑定到pageInfo
+
+			return pageUser;
+		}
+		```
 	- 测试
 
-		```
+		```java
 		@Test
 		public void testFindByNickName() {
 			UserInfo userInfo = userMapper.findByNickName("smalle");
@@ -393,19 +455,6 @@ post |multipart/form-data  |form-data   |(HttpServletRequest request, User user,
 		}
 		```
 - `xml版本(适合复杂操作)`
-	- 配置
-
-		```properties
-		# 基于xml配置时需指明映射文件扫描位置
-		mybatis.mapper-locations=classpath:mapper/*.xml
-		# 字段格式对应关系：数据库字段为下划线, model字段为驼峰标识(不设定则需要通过resultMap进行转换)
-		mybatis.configuration.map-underscore-to-camel-case=true
-		# 类型别名定义扫描的包(可结合@Alias使用, 默认是类名首字母小写)
-		mybatis.type-aliases-package=cn.aezo.springboot.mybatis.model
-
-		# mybatis配置文件位置(mybatis.config-location和mybatis.configuration...不能同时使用)
-		# mybatis.config-location=classpath:mybatis-config.xml
-		```
 	- Dao层：UserMapperXml.java
 
 		```java
@@ -485,7 +534,6 @@ post |multipart/form-data  |form-data   |(HttpServletRequest request, User user,
 			</delete>
 		</mapper>
 		```
-
 
 ### 配置相关
 
