@@ -24,12 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="helloworld" />
         <module name="hibernate" />
+        <module name="mybaits" />
+        <module name="mybatis" />
         <module name="rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloworld" target="1.8" />
       <module name="hibernate" target="1.8" />
+      <module name="mybaits" target="1.8" />
+      <module name="mybatis" target="1.8" />
       <module name="rabbitmq" target="1.8" />
       <module name="springboot-demo" target="1.8" />
     </bytecodeTargetLevel>

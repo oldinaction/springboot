@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--类型别名定义-->
+    <typeAliases>
+        <!--定义后可在映射文件中间的parameterType等字段中使用userInfo代替cn.aezo.springboot.mybatis.model.UserInfo-->
+        <typeAlias alias="userInfo" type="cn.aezo.springboot.mybatis.model.UserInfo" />
+    </typeAliases>
+</configuration>
