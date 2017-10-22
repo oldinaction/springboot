@@ -2,83 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7449e727-8eee-430b-83fa-a57b240adc07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/这个目录是生成的文件" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/ThymeleafSecurityApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomWebAuthenticationDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/MyInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserClassDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/UserClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/denined.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/js/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/jquery-1.11.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/adminRole.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/403.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/thymeleaf/hello.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/thymeleaf-spring-security.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/src/test/java/cn/aezo/springboot/hibernate/dao/UserDaoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/target/classes/data.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/target/classes/schema.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld/helloworld.iml" afterPath="$PROJECT_DIR$/helloworld/helloworld.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/hibernate.iml" afterPath="$PROJECT_DIR$/hibernate/hibernate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/HibernateApplication.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/HibernateApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/controller/UserController.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserClassDao.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserClassDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDao.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/User.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/UserClass.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/UserClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" afterPath="$PROJECT_DIR$/mybatis/mybatis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/pom.xml" afterPath="$PROJECT_DIR$/mybatis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-demo.iml" afterPath="$PROJECT_DIR$/springboot-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="springboot-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/error/ErrorInterceptor.java" />
@@ -184,6 +107,7 @@
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -784,12 +708,12 @@
       <workItem from="1508247719935" duration="1000" />
       <workItem from="1508247727009" duration="3628000" />
       <workItem from="1508556250608" duration="5171000" />
-      <workItem from="1508641724015" duration="23724000" />
+      <workItem from="1508641724015" duration="24259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56956000" />
+    <option name="totallyTimeSpent" value="57491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
@@ -885,14 +809,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/thymeleaf/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1306,6 +1222,75 @@
             <element signature="e#657#658#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2081">
+            <caret line="1013" column="0" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
+            <folding>
+              <marker date="1508670480263" expanded="true" signature="184:387" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="404:644" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="512:627" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="697:753" ph="@{...}" />
+              <marker date="1508670480263" expanded="true" signature="871:877" ph=" { " />
+              <marker date="1508670480263" expanded="true" signature="899:903" ph=" }" />
+              <marker date="1508670480263" expanded="true" signature="945:951" ph=" { " />
+              <marker date="1508670480263" expanded="true" signature="1008:1012" ph=" }" />
+              <marker date="1508670480263" expanded="true" signature="3857:4061" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="3863:3945" ph="//..." />
+              <marker date="1508670480263" expanded="true" signature="5709:5824" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="6869:6986" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="11164:11306" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="12195:13012" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="12208:12347" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="12380:12654" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="12667:12994" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="12812:12981" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="14819:15370" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="14929:15104" ph="[...]" />
+              <marker date="1508670480263" expanded="true" signature="14935:15015" ph="{&quot;id&quot;: 1...}" />
+              <marker date="1508670480263" expanded="true" signature="15021:15099" ph="{&quot;id&quot;: 2...}" />
+              <marker date="1508670480263" expanded="true" signature="15272:15284" ph="[...]" />
+              <marker date="1508670480263" expanded="true" signature="16356:18441" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="16519:16778" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="17211:17293" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="17680:17783" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="17866:17993" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="18076:18305" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="18361:18429" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="19404:21159" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="19631:21131" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="19659:19792" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="19838:20005" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="20029:20109" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="20160:20393" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="20439:20620" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="20670:20875" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="20909:21117" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="21892:22248" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="21898:22153" ph="//..." />
+              <marker date="1508670480263" expanded="true" signature="22343:22783" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="22879:22993" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="23370:23488" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="23547:23676" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="25033:25247" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="25043:25159" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="25169:25237" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="25527:25655" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="26004:26306" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="26115:26300" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="26323:26371" ph="@{...}" />
+              <marker date="1508670480263" expanded="true" signature="26398:26533" ph="{...}" />
+              <marker date="1508670480263" expanded="true" signature="26463:26478" ph=" { " />
+              <marker date="1508670480263" expanded="true" signature="26517:26527" ph=" }" />
+              <marker date="1508670480263" expanded="true" signature="26632:26749" ph="..." />
+              <marker date="1508670480263" expanded="true" signature="26775:26908" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
