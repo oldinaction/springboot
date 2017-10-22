@@ -1,27 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34da30b2-efe3-48a4-a9be-b574da8216cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="7449e727-8eee-430b-83fa-a57b240adc07" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/这个目录是生成的文件" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/ThymeleafSecurityApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomWebAuthenticationDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/MyInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserClassDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/UserClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/data.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/denined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/js/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/jquery-1.11.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/adminRole.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/403.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/thymeleaf/hello.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/thymeleaf-spring-security.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/src/test/java/cn/aezo/springboot/hibernate/dao/UserDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/target/classes/data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hibernate/target/classes/schema.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld/helloworld.iml" afterPath="$PROJECT_DIR$/helloworld/helloworld.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/hibernate.iml" afterPath="$PROJECT_DIR$/hibernate/hibernate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/HibernateApplication.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/HibernateApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/controller/UserController.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserClassDao.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserClassDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDao.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/User.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/UserClass.java" afterPath="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/UserClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" afterPath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/pom.xml" afterPath="$PROJECT_DIR$/mybatis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/controller/UserController.java" afterPath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/mapper/UserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/target/classes/application.properties" afterPath="$PROJECT_DIR$/mybatis/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/mybatis/target/classes/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-demo.iml" afterPath="$PROJECT_DIR$/springboot-demo.iml" />
     </list>
     <ignored path="springboot-demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/helloworld/target/" />
-    <ignored path="$PROJECT_DIR$/hibernate/target/" />
-    <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="$PROJECT_DIR$/mybaits/target/" />
     <ignored path="$PROJECT_DIR$/mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/hibernate/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/thymeleaf-spring-security/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,37 +107,13 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - springboot@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - springboot@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="user_info" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="springboot-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,53 +133,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/hibernate/SpringbootApplication.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/cn/aezo/springboot/rabbitmq/HelloApplicationTest.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/cn/aezo/springboot/rabbitmq/consumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/mybaits/src/main/java/cn/aezo/springboot/hibernate/MybaitsApplication.java" />
-        <option value="$PROJECT_DIR$/mybaits/pom.xml" />
-        <option value="$PROJECT_DIR$/mybaits/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/UserDao.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/import.sql" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/mybatis/model/UserDapJpa.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/mybatis/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/helloworld/SpringbootApplication.java" />
-        <option value="$PROJECT_DIR$/helloworld/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDaoJpa.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/UserClass.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDaoCrud.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/test/java/cn/aezo/springboot/hibernate/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserClassDao.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/User.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/enums/UserSexEnum.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/User.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/enums/HobbyEnum.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/UserClass.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/GroupInfo.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/cn.aezo.springboot.mybatis/mapper/UserInfoMapperTest.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/cn/aezo/springboot/mybatis/t/UserInfoMapperTest.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/cn/aezo/springboot/mybatis/mapper/UserInfoMapperTest.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/mapperxml/UserMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/java/cn/aezo/springboot/mybatis/mapperxml/UserInfoMapperTest.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/mapperxml/UserMapperXml.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/MybatisApplication.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/UserInfo.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/error/ErrorInterceptor.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/WebMvcConfigurer.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/MyBatisGeneratorTool.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/bak/includes/header.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/thymeleaf/hello.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/home/js/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/home/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/static.js" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/ErrorInterceptor.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/hello.js" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/denined.js" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/403.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/404.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/500.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/js/test.js" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/about.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/header.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/admin.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/user.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/footer.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/error/MyAccessDeniedHandler.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/SpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomWebAuthenticationDetails.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginHandler.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/User.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/adminRole.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" />
       </list>
     </option>
   </component>
@@ -162,8 +210,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -191,6 +239,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,11 +261,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -226,150 +274,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\software\nodejs\node.exe" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/smalle/Desktop/springboot/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.aezo.springboot.mybatis.mapperxml" />
-      <recent name="cn.aezo.springboot.mybatis" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\smalle\Desktop\springboot\mybatis\src\main\java\cn\aezo\springboot\mybatis" />
-      <recent name="C:\Users\smalle\Desktop\springboot\mybatis\src\main\resources" />
-      <recent name="C:\Users\smalle\Desktop\springboot" />
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\java\cn\aezo\springboot\thymeleafsecurity\base\security" />
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\static\resources\lib" />
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\static\home\css" />
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\templates" />
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\templates\includes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.aezo.springboot.thymeleafsecurity.base.security" />
+      <recent name="cn.aezo.springboot.thymeleafsecurity.config" />
+      <recent name="cn.aezo.springboot.thymeleafsecurity.error" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\static\home\bootstrap" />
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\templates\bak" />
+      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\templates\thymeleaf" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MybatisApplication">
-    <configuration default="false" name="HelloApplicationTest.provide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="rabbitmq" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.aezo.springboot.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.rabbitmq.HelloApplicationTest" />
-      <option name="METHOD_NAME" value="provide" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserInfoMapperTest.testFindByNickName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.mybatis.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.aezo.springboot.mybatis.mapper" />
-      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.mybatis.mapper.UserInfoMapperTest" />
-      <option name="METHOD_NAME" value="testFindByNickName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserInfoMapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.mybatis.mapperxml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.aezo.springboot.mybatis.mapperxml" />
-      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.mybatis.mapperxml.UserInfoMapperTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserInfoMapperTest.testFindByNickName (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.mybatis.mapperxml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.aezo.springboot.mybatis.mapperxml" />
-      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.mybatis.mapperxml.UserInfoMapperTest" />
-      <option name="METHOD_NAME" value="testFindByNickName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserInfoMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.mybatis.mapperxml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.aezo.springboot.mybatis.mapperxml" />
-      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.mybatis.mapperxml.UserInfoMapperTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ThymeleafSecurityApplication">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -676,7 +602,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springboot-demo" />
+      <module name="helloworld" />
       <envs />
       <method />
     </configuration>
@@ -794,8 +720,21 @@
     <configuration default="false" name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.helloworld.SpringbootApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="helloworld" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.mybatis.MybatisApplication" />
+      <module name="mybatis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RabbitMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.rabbitmq.RabbitMQApplication" />
+      <module name="rabbitmq" />
       <envs />
       <method />
     </configuration>
@@ -807,42 +746,21 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="RabbitMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration default="false" name="ThymeleafSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.rabbitmq.RabbitMQApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.thymeleafsecurity.ThymeleafSecurityApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="rabbitmq" />
+      <module name="thymeleaf-spring-security" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.mybatis.MybatisApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="mybatis" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="9">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.HibernateApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MybatisApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.RabbitMQApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.MybatisApplication" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HelloApplicationTest.provide" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest.testFindByNickName" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest.testInsert" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest.testFindByNickName (1)" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.HibernateApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ThymeleafSecurityApplication" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest.testFindByNickName (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest.testInsert" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest.testInsert" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserInfoMapperTest.testFindByNickName" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -852,83 +770,54 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34da30b2-efe3-48a4-a9be-b574da8216cd" name="Default" comment="" />
-      <created>1500793479387</created>
+      <changelist id="7449e727-8eee-430b-83fa-a57b240adc07" name="Default" comment="" />
+      <created>1505394099196</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1500793479387</updated>
-      <workItem from="1500793483762" duration="983000" />
-      <workItem from="1504966527636" duration="3608000" />
-      <workItem from="1505010673867" duration="2825000" />
-      <workItem from="1505130724743" duration="9565000" />
-      <workItem from="1505219365084" duration="8452000" />
-      <workItem from="1505300009728" duration="320000" />
-      <workItem from="1505301109736" duration="13183000" />
+      <updated>1505394099196</updated>
+      <workItem from="1505394103250" duration="5247000" />
+      <workItem from="1505399539737" duration="1027000" />
+      <workItem from="1505436817077" duration="2946000" />
+      <workItem from="1505480393312" duration="3868000" />
+      <workItem from="1505526475828" duration="10724000" />
+      <workItem from="1505617760487" duration="620000" />
+      <workItem from="1508247719935" duration="1000" />
+      <workItem from="1508247727009" duration="3628000" />
+      <workItem from="1508556250608" duration="5171000" />
+      <workItem from="1508641724015" duration="23724000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="UserInfoMapperTest - 2017.09.13 at 21h 49m 44s.xml">
-      <configuration name="UserInfoMapperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 33m 40s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 34m 30s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 35m 57s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 36m 25s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 36m 56s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 37m 18s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 42m 18s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 43m 03s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserInfoMapperTest_testFindByNickName_(1) - 2017.09.13 at 21h 44m 48s.xml">
-      <configuration name="UserInfoMapperTest.testFindByNickName (1)" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38936000" />
+    <option name="totallyTimeSpent" value="56956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.510101" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30860034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45531198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35353535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37037036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2185501" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42255893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33554083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -937,8 +826,42 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2185501" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33554083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30860034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45531198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37037036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -953,7 +876,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -962,411 +885,427 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/UserDao.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/thymeleaf/hello.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/domain/Example.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/CustomizationBean.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0e367235-6039-4498-ad74-ef8fb36adb64/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/UserClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDaoCrud.java" />
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/HibernateApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="88" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="88" />
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.6.RELEASE/spring-boot-test-1.5.6.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/test/java/cn/aezo/springboot/hibernate/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserClassDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar!/org/springframework/data/jpa/repository/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="91" column="5" selection-start-line="82" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/cn/aezo/springboot/hibernate/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/helloworld/SpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/helloworld/CustomizationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/import.sql" />
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/UserClass.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/enums/HobbyEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="117" selection-start-line="3" selection-start-column="117" selection-end-line="3" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/mybatis.iml">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/GroupInfo.java">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4890" selection-start-line="6" selection-start-column="4890" selection-end-line="6" selection-end-column="4890" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/access/AccessDeniedHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/denined.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/jquery-1.11.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="0" column="4786" selection-start-line="0" selection-start-column="4786" selection-end-line="0" selection-end-column="4786" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.min.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/js/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configuration/EnableGlobalAuthentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/annotation/MapperScan.class">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="553">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/cn/aezo/springboot/mybatis/mapper/UserInfoMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="480">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/MybatisApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/af1aba44/0e367235-6039-4498-ad74-ef8fb36adb64/springboot.user_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="126" selection-start-line="3" selection-start-column="126" selection-end-line="3" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/UserClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/adminRole.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomWebAuthenticationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/access/prepost/PreAuthorize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/af1aba44/9cb32452-29bc-4d0d-befd-76ccbc225dd4/springboot.user">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk1.8.0_111/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/mapperxml/UserMapperXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="95" column="46" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/model/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <marker date="1505310735753" expanded="true" signature="1216:1288" ph="SELECT FROM user_info" />
-            <marker date="1505310735753" expanded="true" signature="1702:1799" ph="SELECT FROM user_info" />
-            <marker date="1505310735753" expanded="true" signature="1906:2031" ph="insert into user_info" />
-            <marker date="1505310735753" expanded="true" signature="1917:2031" ph="INSERT INTO user_info" />
-            <marker date="1505310735753" expanded="true" signature="2138:2377" ph="UPDATE user_... " />
-            <marker date="1505310735753" expanded="true" signature="2457:2519" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/cn/aezo/springboot/mybatis/mapperxml/UserInfoMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1505#1515#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1505314415678" expanded="true" signature="146:349" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="366:606" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="474:589" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="659:715" ph="@{...}" />
-              <marker date="1505314415678" expanded="true" signature="833:839" ph=" { " />
-              <marker date="1505314415678" expanded="true" signature="861:865" ph=" }" />
-              <marker date="1505314415678" expanded="true" signature="907:913" ph=" { " />
-              <marker date="1505314415678" expanded="true" signature="970:974" ph=" }" />
-              <marker date="1505314415678" expanded="true" signature="3239:3354" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="3976:4093" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="8262:8404" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="9292:10109" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="9305:9444" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="9477:9751" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="9764:10091" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="9909:10078" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="12815:14900" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="12978:13237" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="13670:13752" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="14139:14242" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="14325:14452" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="14535:14764" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="14820:14888" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="15491:15847" ph="{...}" />
-              <marker date="1505314415678" expanded="true" signature="15497:15752" ph="//..." />
-              <marker date="1505314415678" expanded="true" signature="15945:16385" ph="{...}" />
-              <marker date="1505314415678" expanded="true" signature="16481:16595" ph="{...}" />
-              <marker date="1505314415678" expanded="true" signature="18305:18433" ph="..." />
-              <marker date="1505314415678" expanded="true" signature="18782:19084" ph="{...}" />
-              <marker date="1505314415678" expanded="true" signature="18893:19078" ph="{...}" />
-              <marker date="1505314415678" expanded="true" signature="19101:19149" ph="@{...}" />
-              <marker date="1505314415678" expanded="true" signature="19176:19311" ph="{...}" />
-              <marker date="1505314415678" expanded="true" signature="19241:19256" ph=" { " />
-              <marker date="1505314415678" expanded="true" signature="19295:19305" ph=" }" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,7 +1372,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mybatis</last-edited>
+          <last-edited>thymeleaf-spring-security</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

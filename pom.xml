@@ -13,6 +13,7 @@
 		<module>hibernate</module>
 		<module>mybatis</module>
 		<module>rabbitmq</module>
+		<module>thymeleaf-spring-security</module>
 	</modules>
 
     <parent>
@@ -38,6 +39,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- 热部署, 禁止template缓存. idea需要使用Ctrl+Shift+F9刷新 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+
 	</dependencies>
 
 	<build>
