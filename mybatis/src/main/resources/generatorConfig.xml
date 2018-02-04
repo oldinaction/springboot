@@ -5,10 +5,12 @@
 <generatorConfiguration>
     <!--数据库驱动 -->
     <classPathEntry location="C:\Users\smalle\.m2\repository\mysql\mysql-connector-java\5.1.43\mysql-connector-java-5.1.43.jar" />
-    <context id="MySQL2Tables" targetRuntime="MyBatis3" defaultModelType="flat">
+    <context id="MySQLTables" targetRuntime="MyBatis3" defaultModelType="flat">
 
         <commentGenerator>
+            <!-- false时打开时间标志，true时关闭 -->
             <property name="suppressDate" value="true" />
+            <!-- false时打开注释，true时关闭注释 -->
             <property name="suppressAllComments" value="true" />
         </commentGenerator>
 
@@ -47,14 +49,15 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-        <!--生成对应表及类名 -->
-        <table
-                tableName="%"
-                enableCountByExample="true"
-                enableUpdateByExample="true"
-                enableDeleteByExample="true"
-                enableSelectByExample="true"
-                selectByExampleQueryId="true">
+        <!-- %标识根据表名生成，tableName="t_%"表示只生成t_开头的表名 -->
+        <table tableName="%">
+            <!--
+                1、生成selectKey语句，为mybatis生成自增主键(无需数据库字段设置成自增)
+                2、column表的字段名(不支持通配符，因此为了方便可将所有表的主键名设置为id)
+                3、sqlStatement="MySql/DB2/SqlServer等"
+                4、identity：true表示column代表的是主键，会在插入记录之后获取自增值替换对应model的id值(自增需要由数据库提供)，false表示非主键，会在插入记录获取自增值并替换model的id(如从序列中获取)
+            -->
+            <generatedKey column="id" sqlStatement="MySql" identity="true" />
         </table>
     </context>
 </generatorConfiguration>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Minions - AEZO</title>
+    <link rel="stylesheet" href="/resources/lib/layui/css/layui.css">
+</head>
+
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">Minions(代码自动生成)</div>
+        <!-- 头部区域（可配合layui已有的水平导航） -->
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a th:href="@{/manage/}">控制台</a></li>
+            <li class="layui-nav-item"><a th:href="@{/manage/projectConfig}">项目配置</a></li>
+            <li class="layui-nav-item"><a href="">用户</a></li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">其它系统</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">邮件管理</a></dd>
+                    <dd><a href="">消息管理</a></dd>
+                    <dd><a href="">授权管理</a></dd>
+                </dl>
+            </li>
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="/favicon.ico" class="layui-nav-img">
+                    smalle
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">基本资料</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a th:href="@{/manage/logout}">退了</a></li>
+        </ul>
+    </div>
+
+    <!--侧边导航-->
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <div layout:fragment="sidebar"></div>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+            <div layout:fragment="content"></div>
+        </div>
+    </div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        © aezo.cn
+        <span sec:authorize="isAuthenticated()">
+            | Logged user: <span sec:authentication="name"></span> |
+            Roles: <span sec:authentication="principal.authorities"></span> |
+            <a th:href="@{/manage/logout}">Sign Out</a>
+        </span>
+    </div>
+</div>
+
+<script src="/resources/lib/layui/layui.js"></script>
+
+<div layout:fragment="js"></div>
+
+<script>
+    // 一个页面最好只调用一次layui.use，此处只是延时效果，实际开发将此代码移动到相应位置
+    layui.use('element', function(){});
+</script>
+</body>
+
+</html>

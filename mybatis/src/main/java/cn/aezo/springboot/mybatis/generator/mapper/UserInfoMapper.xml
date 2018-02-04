@@ -73,7 +73,6 @@
     <if test="distinct">
       distinct
     </if>
-    'true' as QUERYID,
     <include refid="Base_Column_List" />
     from user_info
     <if test="_parameter != null">
@@ -100,17 +99,20 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.aezo.springboot.mybatis.generator.model.UserInfo">
-    insert into user_info (id, group_id, nick_name, 
-      hobby)
-    values (#{id,jdbcType=BIGINT}, #{groupId,jdbcType=BIGINT}, #{nickName,jdbcType=VARCHAR}, 
-      #{hobby,jdbcType=VARCHAR})
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into user_info (group_id, nick_name, hobby
+      )
+    values (#{groupId,jdbcType=BIGINT}, #{nickName,jdbcType=VARCHAR}, #{hobby,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="cn.aezo.springboot.mybatis.generator.model.UserInfo">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into user_info
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        id,
-      </if>
       <if test="groupId != null">
         group_id,
       </if>
@@ -122,9 +124,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        #{id,jdbcType=BIGINT},
-      </if>
       <if test="groupId != null">
         #{groupId,jdbcType=BIGINT},
       </if>

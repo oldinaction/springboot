@@ -7,6 +7,8 @@
     <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="wx_code" jdbcType="VARCHAR" property="wxCode" />
+    <result column="role_code" jdbcType="VARCHAR" property="roleCode" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -67,14 +69,13 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, class_id, username, password, sex
+    id, class_id, username, password, sex, wx_code, role_code
   </sql>
   <select id="selectByExample" parameterType="cn.aezo.springboot.mybatis.generator.model.UserExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
     </if>
-    'true' as QUERYID,
     <include refid="Base_Column_List" />
     from user
     <if test="_parameter != null">
@@ -101,17 +102,22 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.aezo.springboot.mybatis.generator.model.User">
-    insert into user (id, class_id, username, 
-      password, sex)
-    values (#{id,jdbcType=BIGINT}, #{classId,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, 
-      #{password,jdbcType=VARCHAR}, #{sex,jdbcType=INTEGER})
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into user (class_id, username, password, 
+      sex, wx_code, role_code
+      )
+    values (#{classId,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{sex,jdbcType=INTEGER}, #{wxCode,jdbcType=VARCHAR}, #{roleCode,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="cn.aezo.springboot.mybatis.generator.model.User">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        id,
-      </if>
       <if test="classId != null">
         class_id,
       </if>
@@ -124,11 +130,14 @@
       <if test="sex != null">
         sex,
       </if>
+      <if test="wxCode != null">
+        wx_code,
+      </if>
+      <if test="roleCode != null">
+        role_code,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        #{id,jdbcType=BIGINT},
-      </if>
       <if test="classId != null">
         #{classId,jdbcType=BIGINT},
       </if>
@@ -140,6 +149,12 @@
       </if>
       <if test="sex != null">
         #{sex,jdbcType=INTEGER},
+      </if>
+      <if test="wxCode != null">
+        #{wxCode,jdbcType=VARCHAR},
+      </if>
+      <if test="roleCode != null">
+        #{roleCode,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -167,6 +182,12 @@
       <if test="record.sex != null">
         sex = #{record.sex,jdbcType=INTEGER},
       </if>
+      <if test="record.wxCode != null">
+        wx_code = #{record.wxCode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.roleCode != null">
+        role_code = #{record.roleCode,jdbcType=VARCHAR},
+      </if>
     </set>
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -178,7 +199,9 @@
       class_id = #{record.classId,jdbcType=BIGINT},
       username = #{record.username,jdbcType=VARCHAR},
       password = #{record.password,jdbcType=VARCHAR},
-      sex = #{record.sex,jdbcType=INTEGER}
+      sex = #{record.sex,jdbcType=INTEGER},
+      wx_code = #{record.wxCode,jdbcType=VARCHAR},
+      role_code = #{record.roleCode,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -198,6 +221,12 @@
       <if test="sex != null">
         sex = #{sex,jdbcType=INTEGER},
       </if>
+      <if test="wxCode != null">
+        wx_code = #{wxCode,jdbcType=VARCHAR},
+      </if>
+      <if test="roleCode != null">
+        role_code = #{roleCode,jdbcType=VARCHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
@@ -206,7 +235,9 @@
     set class_id = #{classId,jdbcType=BIGINT},
       username = #{username,jdbcType=VARCHAR},
       password = #{password,jdbcType=VARCHAR},
-      sex = #{sex,jdbcType=INTEGER}
+      sex = #{sex,jdbcType=INTEGER},
+      wx_code = #{wxCode,jdbcType=VARCHAR},
+      role_code = #{roleCode,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

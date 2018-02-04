@@ -71,7 +71,6 @@
     <if test="distinct">
       distinct
     </if>
-    'true' as QUERYID,
     <include refid="Base_Column_List" />
     from user_class
     <if test="_parameter != null">

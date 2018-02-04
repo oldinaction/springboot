@@ -63,13 +63,14 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated() // (除上述忽略请求)所有的请求都需要权限认证
                 .and()
             .formLogin()
-                .loginPage("/manage/login").permitAll() // 登录界面(Get)和登录处理方法(Post). 登录成功后，如果从登录界面登录则跳到项目主页(http://localhost:9526)，如果从其他页面跳转到登录页面进行登录则成功后跳转到原始页面
-                .loginProcessingUrl("/manage/login") // 或者通配符/**/login拦截对"/manage/login"和"/login"等
-                .successHandler(authenticationSuccessHandler)
+                .loginPage("/manage/login").permitAll() // 登录界面(Get)和登录处理方法(Post).
+                .loginProcessingUrl("/manage/login") // 或者通配符/**/login拦截对"/manage/login"和"/login"等的POST请求(登录请求。具体逻辑不需要写，并且会自动生成此端点的control，否则和loginPage一致)
+                .successHandler(authenticationSuccessHandler) // 此处定义登录成功处理方法。默认登录成功后，如果从登录界面登录则跳到项目主页(http://localhost:9526)，如果从其他页面跳转到登录页面进行登录则成功后跳转到原始页面
                 .failureHandler(authenticationFailureHandler)
                 .authenticationDetailsSource(authenticationDetailsSource)
                 .and()
-            .logout().permitAll() // 默认访问/logout(Get)即可登出
+            // .logout().permitAll() // 默认访问/logout(Get)即可登出
+            .logout().logoutUrl("/manage/logout").logoutSuccessUrl("/manage/login").permitAll()
                 .and()
             .exceptionHandling().accessDeniedHandler(accessDeniedHandler);
     }

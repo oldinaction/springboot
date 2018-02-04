@@ -423,6 +423,146 @@ public class UserExample {
             addCriterion("sex not between", value1, value2, "sex");
             return (Criteria) this;
         }
+
+        public Criteria andWxCodeIsNull() {
+            addCriterion("wx_code is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeIsNotNull() {
+            addCriterion("wx_code is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeEqualTo(String value) {
+            addCriterion("wx_code =", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeNotEqualTo(String value) {
+            addCriterion("wx_code <>", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeGreaterThan(String value) {
+            addCriterion("wx_code >", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeGreaterThanOrEqualTo(String value) {
+            addCriterion("wx_code >=", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeLessThan(String value) {
+            addCriterion("wx_code <", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeLessThanOrEqualTo(String value) {
+            addCriterion("wx_code <=", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeLike(String value) {
+            addCriterion("wx_code like", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeNotLike(String value) {
+            addCriterion("wx_code not like", value, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeIn(List<String> values) {
+            addCriterion("wx_code in", values, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeNotIn(List<String> values) {
+            addCriterion("wx_code not in", values, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeBetween(String value1, String value2) {
+            addCriterion("wx_code between", value1, value2, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andWxCodeNotBetween(String value1, String value2) {
+            addCriterion("wx_code not between", value1, value2, "wxCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeIsNull() {
+            addCriterion("role_code is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeIsNotNull() {
+            addCriterion("role_code is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeEqualTo(String value) {
+            addCriterion("role_code =", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeNotEqualTo(String value) {
+            addCriterion("role_code <>", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeGreaterThan(String value) {
+            addCriterion("role_code >", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeGreaterThanOrEqualTo(String value) {
+            addCriterion("role_code >=", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeLessThan(String value) {
+            addCriterion("role_code <", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeLessThanOrEqualTo(String value) {
+            addCriterion("role_code <=", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeLike(String value) {
+            addCriterion("role_code like", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeNotLike(String value) {
+            addCriterion("role_code not like", value, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeIn(List<String> values) {
+            addCriterion("role_code in", values, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeNotIn(List<String> values) {
+            addCriterion("role_code not in", values, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeBetween(String value1, String value2) {
+            addCriterion("role_code between", value1, value2, "roleCode");
+            return (Criteria) this;
+        }
+
+        public Criteria andRoleCodeNotBetween(String value1, String value2) {
+            addCriterion("role_code not between", value1, value2, "roleCode");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

@@ -11,6 +11,10 @@ public class User {
 
     private Integer sex;
 
+    private String wxCode;
+
+    private String roleCode;
+
     public Long getId() {
         return id;
     }
@@ -49,5 +53,21 @@ public class User {
 
     public void setSex(Integer sex) {
         this.sex = sex;
+    }
+
+    public String getWxCode() {
+        return wxCode;
+    }
+
+    public void setWxCode(String wxCode) {
+        this.wxCode = wxCode == null ? null : wxCode.trim();
+    }
+
+    public String getRoleCode() {
+        return roleCode;
+    }
+
+    public void setRoleCode(String roleCode) {
+        this.roleCode = roleCode == null ? null : roleCode.trim();
     }
 }

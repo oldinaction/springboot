@@ -2,7 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7449e727-8eee-430b-83fa-a57b240adc07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/images/code.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/images/video/login.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css.map.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/jquery-1.11.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/laydate/default/laydate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laydate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layedit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laytpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/layui.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/layui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/error/403.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/error/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/error/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/common.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/login.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/dao/GroupInfoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/dao/UserClassMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/dao/UserInfoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/dao/UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/mapper/GroupInfoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/mapper/UserClassMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/mapper/UserInfoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/mapper/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/GroupInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/GroupInfoExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserClassExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserInfoExample.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/target/classes/application.properties" afterPath="$PROJECT_DIR$/mybatis/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" />
     </list>
     <ignored path="springboot-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,13 +184,23 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - springboot@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="springboot-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,15 +220,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/error/ErrorInterceptor.java" />
-        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/WebMvcConfigurer.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/MyBatisGeneratorTool.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/bak/includes/header.html" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/thymeleaf/hello.html" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/home/js/bootstrap.min.css" />
@@ -103,11 +261,16 @@
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/adminRole.html" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/home.html" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/layout.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/GroupInfo.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
       </list>
     </option>
   </component>
@@ -134,8 +297,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -162,9 +325,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,10 +345,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -202,11 +365,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitRepositories\springboot\thymeleaf-spring-security\src\main\resources\layui-demo\templates" />
+      <recent name="D:\GitRepositories\springboot\thymeleaf-spring-security\src\main\resources\layui-demo" />
       <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\java\cn\aezo\springboot\thymeleafsecurity\base\security" />
       <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\static\resources\lib" />
       <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\static\home\css" />
-      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\templates" />
-      <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\templates\includes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.aezo.springboot.thymeleafsecurity.base.security" />
@@ -219,7 +382,7 @@
       <recent name="C:\Users\smalle\Desktop\springboot\thymeleaf-spring-security\src\main\resources\templates\thymeleaf" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ThymeleafSecurityApplication">
+  <component name="RunManager" selected="Spring Boot.MybatisApplication">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -709,35 +872,43 @@
       <workItem from="1508247727009" duration="3628000" />
       <workItem from="1508556250608" duration="5171000" />
       <workItem from="1508641724015" duration="24259000" />
+      <workItem from="1508759418208" duration="6186000" />
+      <workItem from="1508927633712" duration="2522000" />
+      <workItem from="1510137800423" duration="614000" />
+      <workItem from="1510148447817" duration="1896000" />
+      <workItem from="1511073695510" duration="1223000" />
+      <workItem from="1511087514874" duration="631000" />
+      <workItem from="1512306640825" duration="911000" />
+      <workItem from="1512904115372" duration="6871000" />
+      <workItem from="1514372898172" duration="687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57491000" />
+    <option name="totallyTimeSpent" value="79032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30860034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45531198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4107744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37037036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30808082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2185501" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21785174" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -747,6 +918,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30808082" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -809,270 +981,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4890" selection-start-line="6" selection-start-column="4890" selection-end-line="6" selection-end-column="4890" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/access/AccessDeniedHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/denined.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/jquery-1.11.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/403.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="0" column="4786" selection-start-line="0" selection-start-column="4786" selection-end-line="0" selection-end-column="4786" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap.min.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configuration/EnableGlobalAuthentication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="126" selection-start-line="3" selection-start-column="126" selection-end-line="3" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="160" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="160" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/UserClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,15 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,23 +1006,292 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/access/prepost/PreAuthorize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/af1aba44/9cb32452-29bc-4d0d-befd-76ccbc225dd4/springboot.user" />
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2081">
+            <caret line="1013" column="0" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/common.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java">
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/dao/UserClassMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/这个目录是生成的文件">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/UserInfoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3e62d487/9cb32452-29bc-4d0d-befd-76ccbc225dd4/springboot.group_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/GroupInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/mapper/GroupInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/MybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="256">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
@@ -1134,65 +1305,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/access/prepost/PreAuthorize.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/af1aba44/9cb32452-29bc-4d0d-befd-76ccbc225dd4/springboot.user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1213,84 +1345,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2081">
-            <caret line="1013" column="0" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
-            <folding>
-              <marker date="1508670480263" expanded="true" signature="184:387" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="404:644" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="512:627" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="697:753" ph="@{...}" />
-              <marker date="1508670480263" expanded="true" signature="871:877" ph=" { " />
-              <marker date="1508670480263" expanded="true" signature="899:903" ph=" }" />
-              <marker date="1508670480263" expanded="true" signature="945:951" ph=" { " />
-              <marker date="1508670480263" expanded="true" signature="1008:1012" ph=" }" />
-              <marker date="1508670480263" expanded="true" signature="3857:4061" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="3863:3945" ph="//..." />
-              <marker date="1508670480263" expanded="true" signature="5709:5824" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="6869:6986" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="11164:11306" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="12195:13012" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="12208:12347" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="12380:12654" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="12667:12994" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="12812:12981" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="14819:15370" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="14929:15104" ph="[...]" />
-              <marker date="1508670480263" expanded="true" signature="14935:15015" ph="{&quot;id&quot;: 1...}" />
-              <marker date="1508670480263" expanded="true" signature="15021:15099" ph="{&quot;id&quot;: 2...}" />
-              <marker date="1508670480263" expanded="true" signature="15272:15284" ph="[...]" />
-              <marker date="1508670480263" expanded="true" signature="16356:18441" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="16519:16778" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="17211:17293" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="17680:17783" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="17866:17993" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="18076:18305" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="18361:18429" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="19404:21159" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="19631:21131" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="19659:19792" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="19838:20005" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="20029:20109" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="20160:20393" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="20439:20620" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="20670:20875" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="20909:21117" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="21892:22248" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="21898:22153" ph="//..." />
-              <marker date="1508670480263" expanded="true" signature="22343:22783" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="22879:22993" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="23370:23488" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="23547:23676" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="25033:25247" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="25043:25159" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="25169:25237" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="25527:25655" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="26004:26306" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="26115:26300" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="26323:26371" ph="@{...}" />
-              <marker date="1508670480263" expanded="true" signature="26398:26533" ph="{...}" />
-              <marker date="1508670480263" expanded="true" signature="26463:26478" ph=" { " />
-              <marker date="1508670480263" expanded="true" signature="26517:26527" ph=" }" />
-              <marker date="1508670480263" expanded="true" signature="26632:26749" ph="..." />
-              <marker date="1508670480263" expanded="true" signature="26775:26908" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="375">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

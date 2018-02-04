@@ -17,6 +17,7 @@
     </typeAliases>
 
     <plugins>
+        <!-- 分页插件 -->
         <!-- 5.0.0以后使用com.github.pagehelper.PageInterceptor作为拦截器 -->
         <plugin interceptor="com.github.pagehelper.PageInterceptor">
             <!--更多参数配置：https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md-->
