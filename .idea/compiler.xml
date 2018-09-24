@@ -9,6 +9,9 @@
         <module name="helloworld" />
         <module name="hibernate" />
         <module name="mybatis" />
+        <module name="oauth2-authorization-code-aiqiyi" />
+        <module name="oauth2-authorization-code-qq" />
+        <module name="oauth2-client-password" />
         <module name="rabbitmq" />
         <module name="spring-data-rest" />
         <module name="spring-security-thymeleaf" />
@@ -19,16 +22,25 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="helloworld" target="1.7" />
-      <module name="hibernate" target="1.7" />
-      <module name="mybatis" target="1.7" />
-      <module name="rabbitmq" target="1.7" />
-      <module name="spring-data-rest" target="1.7" />
-      <module name="spring-security-thymeleaf" target="1.7" />
-      <module name="springboot-demo" target="1.7" />
-      <module name="swagger" target="1.7" />
-      <module name="webservice" target="1.7" />
-      <module name="websocket" target="1.7" />
+      <module name="aiqiyi" target="1.8" />
+      <module name="authorization-server" target="1.8" />
+      <module name="client-password" target="1.8" />
+      <module name="helloworld" target="1.8" />
+      <module name="hibernate" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="oauth2-authorization-code" target="1.8" />
+      <module name="oauth2-authorization-code-aiqiyi" target="1.8" />
+      <module name="oauth2-authorization-code-qq" target="1.8" />
+      <module name="oauth2-client-password" target="1.8" />
+      <module name="qq" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="spring-data-rest" target="1.8" />
+      <module name="spring-security-oauth2" target="1.8" />
+      <module name="spring-security-thymeleaf" target="1.8" />
+      <module name="springboot-demo" target="1.8" />
+      <module name="swagger" target="1.8" />
+      <module name="webservice" target="1.8" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

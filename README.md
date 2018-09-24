@@ -4,11 +4,12 @@
 - `hibernate`(1.5.6, mysql)
 - `mybatis`(1.5.6)
 - `rabbitmq`(1.5.6)
-- `spring-data-rest`(1.5.6)
-- `swagger`(1.5.6)
+- `spring-data-rest`(1.5.6) 2018-09-23
+- `spring-security-oauth2`(2.0.1) 2018-09-24
 - `spring-security-thymeleaf`(1.5.6)
+- `swagger`(1.5.6) 2018-09-23
 - `webservice`(1.5.6)
-- `websocket`(1.5.6)
+- `websocket`(1.5.6) 2018-09-23
 
 ## 说明
 

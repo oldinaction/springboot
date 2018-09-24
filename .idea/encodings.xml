@@ -7,6 +7,17 @@
     <file url="file://$PROJECT_DIR$/mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/authorization-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/authorization-code/aiqiyi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/authorization-code/qq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/client-credentials" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/client-password" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-aiqiyi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-qq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-client-password" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-oauth2/resource-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-thymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webservice" charset="UTF-8" />

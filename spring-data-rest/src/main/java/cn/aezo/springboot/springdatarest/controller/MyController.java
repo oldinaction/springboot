@@ -18,7 +18,11 @@ public class MyController {
 
     @GetMapping("/myPerson")
     public Person myPerson(Long id) {
-        Person person = personRepository.findOne(id); // getOne是"Returns a reference" findOne比getOne更通用。推荐使用findOne
+        // springboot 1.5.6：getOne是"Returns a reference" findOne比getOne更通用。推荐使用findOne
+        // Person person = personRepository.findOne(id);
+
+        // springboot 2.0.1：findOne被改成findById
+        Person person = personRepository.findById(id).get();
         return person;
     }
 

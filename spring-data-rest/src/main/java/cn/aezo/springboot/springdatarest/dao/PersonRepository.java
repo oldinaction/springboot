@@ -14,6 +14,5 @@ public interface PersonRepository extends JpaRepository<Person, Long> {
     List<Person> findByNameStartsWith(@Param("name") String name);
 
     @RestResource(exported = false) // 屏蔽话默认的delete方法
-    @Override
     void delete(Long id);
 }
