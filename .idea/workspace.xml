@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7449e727-8eee-430b-83fa-a57b240adc07" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="springboot-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,24 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-                <folding>
-                  <element signature="e#170#171#0" expanded="true" />
-                  <element signature="e#198#199#0" expanded="true" />
-                  <element signature="e#240#241#0" expanded="true" />
-                  <element signature="e#303#304#0" expanded="true" />
-                  <element signature="e#563#564#0" expanded="true" />
-                  <element signature="e#621#622#0" expanded="true" />
-                  <element signature="e#949#950#0" expanded="true" />
-                  <element signature="e#971#972#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -94,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/layout.html" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/GroupInfo.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/cxf/service/User.java" />
@@ -145,6 +130,7 @@
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/config/SpringDataRestConfig.java" />
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/controller/MyController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -790,7 +776,7 @@
       <workItem from="1537693677163" duration="21398000" />
       <workItem from="1537751450784" duration="3097000" />
       <workItem from="1537754638950" duration="113000" />
-      <workItem from="1537754797848" duration="9215000" />
+      <workItem from="1537754797848" duration="10212000" />
     </task>
     <task id="LOCAL-00001" summary="websocket、spring-data-rest、swagger">
       <created>1537769193945</created>
@@ -799,7 +785,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537769193945</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="websocket、spring-data-rest、swagger">
+      <created>1537769647680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537769647680</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove classes">
+      <created>1537769807068</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537769807068</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -817,11 +817,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150148000" />
+    <option name="totallyTimeSpent" value="151145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.31543624" />
@@ -842,7 +841,7 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32885906" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32997763" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3914989" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.30760625" />
@@ -906,6 +905,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -919,7 +944,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="websocket、spring-data-rest、swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="websocket、spring-data-rest、swagger" />
+    <MESSAGE value="remove classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -931,13 +957,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/swagger/SpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1315,8 +1334,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             <folding>
               <element signature="e#170#171#0" expanded="true" />
               <element signature="e#198#199#0" expanded="true" />
@@ -1329,6 +1348,13 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
