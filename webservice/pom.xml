@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>webservice</artifactId>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>cn.aezo.springboot</groupId>
+		<artifactId>springboot-demo</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath/>
+	</parent>
+
+	<repositories>
+		<!-- groboutils所需的第三方库 -->
+		<repository>
+			<id>opensymphony-releases</id>
+			<name>Repository Opensymphony Releases</name>
+			<url>https://oss.sonatype.org/content/repositories/opensymphony-releases</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!--WebService CXF依赖-->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+			<version>3.1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>3.1.8</version>
+		</dependency>
+
+		<!-- 多线程测试 -->
+		<dependency>
+			<groupId>net.sourceforge.groboutils</groupId>
+			<artifactId>groboutils-core</artifactId>
+			<version>5</version>
+		</dependency>
+	</dependencies>
+</project>

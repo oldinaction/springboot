@@ -1,0 +1,10 @@
+# Swagger文档界面信息配置
+swagger:
+  title: API接口文档标题
+  description: API接口文档描述
+  version: 1.0.0
+  termsOfServiceUrl: http://blog.aezo.cn
+  contact:
+    name: smalle
+    url: http://blog.aezo.cn
+    email: admin@aezo.cn

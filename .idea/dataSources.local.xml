@@ -9,8 +9,9 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-scope>springboot:</introspection-scope>
+      <introspection-schemas>*:springboot|springboot:</introspection-schemas>
       <resolve-scope>springboot:</resolve-scope>
+      <unqualified-resolve-schemas>springboot:</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>
