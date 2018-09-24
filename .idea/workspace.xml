@@ -2,91 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7449e727-8eee-430b-83fa-a57b240adc07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_groboutils_groboutils_core_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_1_5_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_1_5_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_2_6_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_hal_browser_2_6_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_2_6_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_23_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/SpringRestDataApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/config/SpringDataRestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/dao/CardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/dao/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/domain/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/domain/projection/ListCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/domain/projection/ListPeople.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-rest/src/main/resources/postman.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/cxf/client/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/cxf/service/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/cxf/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/cxf/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/cxf/service/WebServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/src/test/java/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/webservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/websocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/helloworld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/helloworld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/helloworld/CustomizationBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/helloworld/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/swagger/SpringbootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate/hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate/hibernate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/thymeleaf-spring-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf-spring-security/thymeleaf-spring-security.iml" afterDir="false" />
     </list>
     <ignored path="springboot-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,7 +48,30 @@
     <favorites_list name="springboot-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+                <folding>
+                  <element signature="e#170#171#0" expanded="true" />
+                  <element signature="e#198#199#0" expanded="true" />
+                  <element signature="e#240#241#0" expanded="true" />
+                  <element signature="e#303#304#0" expanded="true" />
+                  <element signature="e#563#564#0" expanded="true" />
+                  <element signature="e#621#622#0" expanded="true" />
+                  <element signature="e#949#950#0" expanded="true" />
+                  <element signature="e#971#972#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,7 +110,6 @@
         <option value="$PROJECT_DIR$/websocket/src/main/java/cn/aezo/springboot/websocket/Message.java" />
         <option value="$PROJECT_DIR$/websocket/src/main/java/cn/aezo/springboot/websocket/WebSocketApplication.java" />
         <option value="$PROJECT_DIR$/websocket/src/main/java/cn/aezo/springboot/websocket/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/websocket/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/SpringbootApplication.java" />
         <option value="$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/SpringBootApplication.java" />
@@ -204,6 +144,7 @@
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/domain/Person.java" />
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/config/SpringDataRestConfig.java" />
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -849,8 +790,16 @@
       <workItem from="1537693677163" duration="21398000" />
       <workItem from="1537751450784" duration="3097000" />
       <workItem from="1537754638950" duration="113000" />
-      <workItem from="1537754797848" duration="8862000" />
+      <workItem from="1537754797848" duration="9215000" />
     </task>
+    <task id="LOCAL-00001" summary="websocket、spring-data-rest、swagger">
+      <created>1537769193945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537769193945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -868,10 +817,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149795000" />
+    <option name="totallyTimeSpent" value="150148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.31543624" />
@@ -885,7 +835,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.2579425" />
       <window_info anchor="right" id="Ant Build" order="6" side_tool="true" weight="0.24962178" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37807608" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37807608" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32996634" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.29306486" />
       <window_info id="Palette&#9;" order="4" />
@@ -967,6 +917,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="websocket、spring-data-rest、swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="websocket、spring-data-rest、swagger" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="19" />
@@ -977,21 +931,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/cn/aezo/springboot/websocket/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/cn/aezo/springboot/websocket/WebSocketApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/swagger/CustomizationBean.java" />
     <entry file="file://$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/swagger/SpringbootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1362,6 +1301,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="45" column="25" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <folding>
+              <element signature="e#170#171#0" expanded="true" />
+              <element signature="e#198#199#0" expanded="true" />
+              <element signature="e#240#241#0" expanded="true" />
+              <element signature="e#303#304#0" expanded="true" />
+              <element signature="e#563#564#0" expanded="true" />
+              <element signature="e#621#622#0" expanded="true" />
+              <element signature="e#949#950#0" expanded="true" />
+              <element signature="e#971#972#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
