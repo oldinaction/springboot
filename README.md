@@ -6,7 +6,7 @@
 - `rabbitmq`(1.5.6)
 - `spring-data-rest`(1.5.6)
 - `swagger`(1.5.6)
-- `thymeleaf-spring-security`(1.5.6)
+- `spring-security-thymeleaf`(1.5.6)
 - `webservice`(1.5.6)
 - `websocket`(1.5.6)
 
@@ -15,7 +15,7 @@
 - Readme笔记停止更新，只更新目录部分 (2018-09-24)
 - 关于SpringBoot最新笔记请异步 [http://blog.aezo.cn/](http://blog.aezo.cn/2017/07/23/java/springboot/)
 
-## hello world
+## Hello World
 
 - 引入依赖
 

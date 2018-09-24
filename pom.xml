@@ -13,7 +13,7 @@
 		<module>hibernate</module>
 		<module>mybatis</module>
 		<module>rabbitmq</module>
-		<module>thymeleaf-spring-security</module>
+		<module>spring-security-thymeleaf</module>
 		<module>webservice</module>
 		<module>websocket</module>
 		<module>swagger</module>

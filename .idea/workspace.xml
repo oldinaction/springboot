@@ -2,8 +2,399 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7449e727-8eee-430b-83fa-a57b240adc07" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/spring-security-thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/ThymeleafSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomWebAuthenticationDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserClassDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/UserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/images/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/images/video/login.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css.map.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/jquery-1.11.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/includes/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/includes/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/includes/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/denined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/jquery-1.11.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/adminRole.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/thymeleaf/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/ThymeleafSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/ThymeleafSecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationDetailsSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomWebAuthenticationDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/CustomWebAuthenticationDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/HasAdminRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/LoginFinishHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/MyAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/base/security/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/config/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/ThymeleafController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserClassDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserClassDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/UserClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/java/cn/aezo/springboot/thymeleafsecurity/model/UserClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/images/code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/images/code.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/images/video/login.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/images/video/login.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css.map.bak" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css.map.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/jquery-1.11.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/jquery-1.11.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/18.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/19.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/24.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/25.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/26.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/27.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/28.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/31.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/33.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/34.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/36.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/37.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/38.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/39.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/40.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/41.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/42.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/43.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/44.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/45.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/46.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/47.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/48.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/49.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/51.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/52.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/53.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/54.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/55.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/56.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/57.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/58.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/59.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/60.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/61.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/62.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/63.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/65.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/66.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/67.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/68.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/69.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/70.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/71.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/images/face/9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/static/resources/lib/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/error/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/includes/common.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/includes/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/includes/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/layui-demo/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/denined.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/denined.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/js/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/static/resources/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/bootstrap/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/static/resources/lib/jquery-1.11.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/static/resources/lib/jquery-1.11.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/adminRole.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/adminRole.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/error/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/layui-demo/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/thymeleaf/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/thymeleaf/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/src/main/resources/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-spring-security/thymeleaf-spring-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-thymeleaf/spring-security-thymeleaf.iml" afterDir="false" />
     </list>
     <ignored path="springboot-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +410,7 @@
     <ignored path="$PROJECT_DIR$/websocket/target/" />
     <ignored path="$PROJECT_DIR$/swagger/target/" />
     <ignored path="$PROJECT_DIR$/spring-data-rest/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-thymeleaf/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +439,7 @@
     <favorites_list name="springboot-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,11 +458,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="springboot-1.5.6" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/mybatis/generator/model/GroupInfo.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/cxf/service/User.java" />
         <option value="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/SpringbootApplication.java" />
@@ -104,7 +490,6 @@
         <option value="$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/UserController.java" />
         <option value="$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/User.java" />
         <option value="$PROJECT_DIR$/swagger/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hibernate/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/SpringRestDataApplication.java" />
@@ -129,8 +514,10 @@
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/domain/Person.java" />
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/config/SpringDataRestConfig.java" />
         <option value="$PROJECT_DIR$/spring-data-rest/src/main/java/cn/aezo/springboot/springdatarest/controller/MyController.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -212,7 +599,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="js-jscs-nodeInterpreter" value="D:\software\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-data-rest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-thymeleaf" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -405,7 +792,7 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.swagger.SwaggerApplication" />
     </configuration>
     <configuration name="ThymeleafSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="thymeleaf-spring-security" />
+      <module name="spring-security-thymeleaf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.thymeleafsecurity.ThymeleafSecurityApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
@@ -732,6 +1119,8 @@
       <list>
         <item itemvalue="JUnit.MyTest.main" />
         <item itemvalue="Application.MyClient" />
+        <item itemvalue="JUnit.MyTest.main" />
+        <item itemvalue="Application.MyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -776,7 +1165,7 @@
       <workItem from="1537693677163" duration="21398000" />
       <workItem from="1537751450784" duration="3097000" />
       <workItem from="1537754638950" duration="113000" />
-      <workItem from="1537754797848" duration="10212000" />
+      <workItem from="1537754797848" duration="10819000" />
     </task>
     <task id="LOCAL-00001" summary="websocket、spring-data-rest、swagger">
       <created>1537769193945</created>
@@ -799,7 +1188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537769807068</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove classes">
+      <created>1537770653666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537770653666</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -817,7 +1213,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151145000" />
+    <option name="totallyTimeSpent" value="151752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -841,11 +1237,11 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32885906" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32997763" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.5201342" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3914989" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.30760625" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
       <window_info anchor="right" id="Bean Validation" order="7" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.5033557" side_tool="true" weight="0.23454158" />
       <window_info id="JRebel" order="5" side_tool="true" />
@@ -957,21 +1353,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloworld/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger/src/main/java/cn/aezo/springboot/swagger/CustomizationBean.java" />
-    <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/ApiImplicitParam.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1019,13 +1400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1331,11 +1705,38 @@
     <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-thymeleaf/spring-security-thymeleaf.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/src/main/java/cn/aezo/springboot/thymeleafsecurity/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-thymeleaf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             <folding>
               <element signature="e#170#171#0" expanded="true" />
               <element signature="e#198#199#0" expanded="true" />
@@ -1348,13 +1749,6 @@
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -1445,7 +1839,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: javax.transaction:javax.transaction-api:1.2</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

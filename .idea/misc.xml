@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/websocket/pom.xml" />
         <option value="$PROJECT_DIR$/swagger/pom.xml" />
         <option value="$PROJECT_DIR$/spring-data-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-thymeleaf/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,9 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" filepath="$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-thymeleaf/spring-security-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-security-thymeleaf/spring-security-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/swagger/swagger.iml" filepath="$PROJECT_DIR$/swagger/swagger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thymeleaf-spring-security/thymeleaf-spring-security.iml" filepath="$PROJECT_DIR$/thymeleaf-spring-security/thymeleaf-spring-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/webservice/webservice.iml" filepath="$PROJECT_DIR$/webservice/webservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
     </modules>
