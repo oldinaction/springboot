@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>z-exe4j-accessdb</artifactId>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>cn.aezo.springboot</groupId>
+		<artifactId>springboot-demo</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<!--
+		连接access方式
+			1.jdbc-odbc桥:
+				1.1 这种方式依赖于操作系统的JET引擎，在XP上打不开Access2007以上创建的.accdb数据库文件，只能连接.mdb数据库文件，而.mdb的加密算法已经落伍了
+				1.2 需要在windows上先配置odbc
+				1.3 采用odbc，则只适用于windows
+			2.纯jdbc：UCanAccess驱动(http://ucanaccess.sourceforge.net/site.html)
+				2.1 开源Access数据库JDBC驱动，完美支持.accdb数据库，不过要想支持有密码的数据库文件，得依赖于jackcess解密库，并且自己实现调用解密库打开加密文件的解密类
+				2.2 内部依赖于hsqldb.jar
+		-->
+		<dependency>
+			<groupId>net.sf.ucanaccess</groupId>
+			<artifactId>ucanaccess</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<!-- 连接加密access数据库时需要 -->
+		<!-- https://mvnrepository.com/artifact/com.healthmarketscience.jackcess/jackcess -->
+		<dependency>
+			<groupId>com.healthmarketscience.jackcess</groupId>
+			<artifactId>jackcess</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.healthmarketscience.jackcess/jackcess-encrypt -->
+		<dependency>
+			<groupId>com.healthmarketscience.jackcess</groupId>
+			<artifactId>jackcess-encrypt</artifactId>
+			<version>2.1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>

@@ -1,0 +1,27 @@
+server:
+  port: 9526
+spring:
+  datasource:
+    access-one:
+      driver-class-name: net.ucanaccess.jdbc.UcanaccessDriver
+      jdbc-url: jdbc:ucanaccess://D:/gitwork/springboot/dynamic-datasource/src/main/resources/test.accdb;memory=true
+    mysql-one:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
+    mysql-two:
+          driver-class-name: com.mysql.jdbc.Driver
+          jdbc-url: jdbc:mysql://localhost:3306/test_two?useUnicode=true&characterEncoding=utf-8
+          username: root
+          password: root
+    sqlserver-one:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      jdbc-url: jdbc:sqlserver://192.168.17.237:1433;DatabaseName=fedex
+      username: sa
+      password: root
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+

@@ -10,6 +10,8 @@
 - `swagger`(1.5.6) 2018-09-23
 - `webservice`(1.5.6)
 - `websocket`(1.5.6) 2018-09-23
+- `dynamic-datasource`(2.0.1) 2018-11-28 多数据源; 动态数据源; 运行时动态添加数据源
+- `z-exe4j-accessdb`(2.0.1) 2018-11-16 连接(加密)access db; exe4j打包成exe文件; inno setup进行安装包压缩
 
 ## 说明
 

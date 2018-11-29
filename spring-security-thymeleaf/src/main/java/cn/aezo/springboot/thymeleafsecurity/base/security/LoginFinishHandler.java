@@ -35,6 +35,8 @@ public class LoginFinishHandler {
             session.setAttribute("SESSION_USER_INFO", user);
 
             logger.info("{} 登录成功", user.getUsername());
+			
+			httpServletResponse.sendRedirect("/manage/home");
         }
     }
 
@@ -43,6 +45,8 @@ public class LoginFinishHandler {
         @Override
         public void onAuthenticationFailure(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException e) throws IOException, ServletException {
             logger.info("登录失败");
+			
+			httpServletResponse.sendRedirect("/manage/login");
         }
     }
 }

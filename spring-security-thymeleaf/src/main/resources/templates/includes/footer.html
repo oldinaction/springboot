@@ -14,7 +14,7 @@
         <span sec:authorize="isAuthenticated()">
             | Logged user: <span sec:authentication="name"></span> |
             Roles: <span sec:authentication="principal.authorities"></span> |
-            <a th:href="@{/logout}">Sign Out</a>
+            <a th:href="@{/manage/logout}">Sign Out</a>
         </span>
 
         <script type="text/javascript" src="/resources/lib/jquery-1.11.1.js"></script>

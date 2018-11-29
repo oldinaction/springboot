@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: net.ucanaccess.jdbc.UcanaccessDriver
+    # url: jdbc:ucanaccess://D:/gitwork/springboot/z-exe4j-accessdb/test.accdb;memory=true
+    # 通过vm参数传递，可传递相对路径
+#    url: jdbc:ucanaccess://${myexe.dbpath};memory=true
+    # 加密access配置
+    url: jdbc:ucanaccess://${myexe.dbpath};jackcessOpener=cn.aezo.springboot.exe4jaccessdb.config.CryptCodecOpener;memory=true
+    password: 2SS95F0C2FF5DA2718AA

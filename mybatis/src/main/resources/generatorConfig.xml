@@ -28,7 +28,7 @@
 
         <!--生成Model类存放位置 -->
         <javaModelGenerator
-                targetPackage="cn.aezo.springboot.mybatis.generator.model"
+                targetPackage="cn.aezo.springboot.datasource.generator.model"
                 targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
@@ -36,7 +36,7 @@
 
         <!--生成映射文件存放位置 -->
         <sqlMapGenerator
-                targetPackage="cn.aezo.springboot.mybatis.generator.mapper"
+                targetPackage="cn.aezo.springboot.datasource.generator.mapper"
                 targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
@@ -44,7 +44,7 @@
         <!--生成Dao类存放位置 -->
         <javaClientGenerator
                 type="XMLMAPPER"
-                targetPackage="cn.aezo.springboot.mybatis.generator.dao"
+                targetPackage="cn.aezo.springboot.datasource.generator.dao"
                 targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>

@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
     @GetMapping("/user")
     public String user() {
-        return "/user";
+        return "user";
     }
 
     // @PreAuthorize("hasRole('ADMIN')") // 使用自定义注解@HasAdminRole进行封装(可组合更复杂的权限注解)
     @HasAdminRole
     @GetMapping("/adminRole")
     public String adminRole() {
-        return "/adminRole";
+        return "adminRole";
     }
 }

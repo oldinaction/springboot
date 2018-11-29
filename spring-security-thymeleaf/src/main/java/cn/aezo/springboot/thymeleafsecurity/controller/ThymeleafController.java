@@ -16,6 +16,6 @@ public class ThymeleafController {
     public String hello(Map<String, Object> model) {
         model.put("hello", "UserController.thymeleaf");
 
-        return "/thymeleaf/hello";
+        return "thymeleaf/hello";
     }
 }
