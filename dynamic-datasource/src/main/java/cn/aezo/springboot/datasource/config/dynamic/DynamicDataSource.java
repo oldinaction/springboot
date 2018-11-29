@@ -1,7 +1,5 @@
 package cn.aezo.springboot.datasource.config.dynamic;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
 import javax.sql.DataSource;
@@ -10,8 +8,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 // AbstractRoutingDataSource 只支持单库事务，也就是说切换数据源要在开启事务之前执行
 public class DynamicDataSource extends AbstractRoutingDataSource {
-    private static final Logger log = LoggerFactory.getLogger(DynamicDataSource.class);
-
     // 预备一份用于存储targetDataSource，否则之前的设置的数据源会丢失。(此处无法获取AbstractRoutingDataSource的targetDataSources值)
     private ConcurrentHashMap<String, DataSource> backupTargetDataSources = new ConcurrentHashMap<>();
 

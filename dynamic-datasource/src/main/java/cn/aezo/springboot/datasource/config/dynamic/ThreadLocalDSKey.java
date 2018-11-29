@@ -1,9 +1,10 @@
 package cn.aezo.springboot.datasource.config.dynamic;
 
+/**
+ * ThreadLocal存储数据，解决线程安全问题
+ */
 public class ThreadLocalDSKey {
-    /**
-     * 默认数据源标识
-     */
+    // 默认数据源标识
     public static final String DEFAULT_DS_KEY = "mysql-one-dynamic";
 
     private static final ThreadLocal<String> dsKeyHolder = new ThreadLocal<>();

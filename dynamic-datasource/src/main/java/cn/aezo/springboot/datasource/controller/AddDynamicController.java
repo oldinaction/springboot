@@ -45,7 +45,7 @@ public class AddDynamicController {
                 .type(com.zaxxer.hikari.HikariDataSource.class)
                 .build();
 
-        // 重设并通知，维护的TargetDataSource
+        // 增加并重设TargetDataSource
         dynamicDataSource.addDataSourceToTargetDataSource(dsKey, ds);
         dynamicDataSource.reSetTargetDataSource();
 

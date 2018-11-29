@@ -32,6 +32,7 @@ public class TestService {
         System.out.println("data = " + data); // data = [{password=EFG456, id=1, username=test_three}]
     }
 
+    // 在controller中通过传入参数进行数据源切换
     public List<Map<String, Object>> testMysql() {
         return testDao.findTest();
     }
