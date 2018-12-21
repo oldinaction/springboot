@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          qq:
+            authorization-uri: http://localhost:8080/oauth/authorize
+            token-uri: http://localhost:8080/oauth/token
+            user-info-uri: http://localhost:8080/qq/userInfo
+            userNameAttribute: qq
+        registration:
+          youku:
+            clientId: youku
+            clientSecret: my-secret-999999
+            clientName: youku
+            provider: qq
+            scope: get_user_info
+            # http://aezocn.local:8081/login/oauth2/code/youku
+            redirect-uri-template: "{baseUrl}/login/oauth2/code/youku"
+            authorization-grant-type: authorization_code

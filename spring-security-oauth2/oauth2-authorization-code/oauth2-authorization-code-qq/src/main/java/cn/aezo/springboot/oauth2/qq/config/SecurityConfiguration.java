@@ -22,8 +22,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected UserDetailsService userDetailsService() {
         // 在内存中创建两个 qq 用户
         InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-        manager.createUser(User.withUsername("123456").password("123456").authorities("USER").build());
-        manager.createUser(User.withUsername("654321").password("abc").authorities("USER").build());
+        manager.createUser(User.withUsername("123456").password("admin").authorities("USER").build());
+        manager.createUser(User.withUsername("654321").password("aezocn").authorities("USER").build());
         return manager;
     }
 
@@ -47,9 +47,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .and()
             .authorizeRequests()
             .anyRequest().permitAll()
+            .antMatchers("/**").hasAnyRole("USER", "ADMIN") // 有USER/ADMIN角色均可
+            .anyRequest().authenticated() // (除上述忽略请求)所有的请求都需要权限认证
             .and()
-            .formLogin()
-            .loginPage("/login")
+            .formLogin().loginPage("/login").permitAll()
+            .and()
+            .logout().permitAll().logoutSuccessUrl("/login")
             .and()
             .httpBasic().disable()
             .exceptionHandling()

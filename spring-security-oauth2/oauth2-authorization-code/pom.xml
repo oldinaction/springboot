@@ -10,7 +10,8 @@
     <modules>
         <module>oauth2-authorization-code-qq</module>
         <module>oauth2-authorization-code-aiqiyi</module>
-        <module>oauth2-authorization-code-github</module>
+        <module>oauth2-authorization-code-youku</module>
+        <module>oauth2-authorization-code-sso</module>
     </modules>
 
     <parent>

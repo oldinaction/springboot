@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+security:
+  oauth2:
+    client:
+      clientId: client2
+      clientSecret: my-secret-999999
+      userAuthorizationUri: http://localhost:8080/oauth/authorize
+      accessTokenUri: http://localhost:8080/oauth/token
+    resource:
+      userInfoUri: http://localhost:8080/qq/user/me

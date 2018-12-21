@@ -1,0 +1,8 @@
+server:
+  port: 8083
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8080/qq/user/me
+      prefer-token-info: false

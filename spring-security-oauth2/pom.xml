@@ -10,6 +10,7 @@
     <modules>
         <module>oauth2-authorization-code</module>
         <module>oauth2-client-password</module>
+        <module>oauth2-jwt</module>
     </modules>
 
     <parent>

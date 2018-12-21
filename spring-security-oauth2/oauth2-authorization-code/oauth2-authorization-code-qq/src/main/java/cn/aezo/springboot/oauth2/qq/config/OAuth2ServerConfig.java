@@ -49,7 +49,7 @@ public class OAuth2ServerConfig {
         public void configure(ResourceServerSecurityConfigurer resources) {
             resources.resourceId(QQ_RESOURCE_ID).stateless(true);
 
-            // 如果关闭 stateless，则 access_token 使用时的 session id 会被记录，后续请求不携带 access_token 也可以正常响应
+            // 如果关闭 stateless(开启session)，则 access_token 使用时的 session id 会被记录，后续请求不携带 access_token 也可以正常响应
             // resources.resourceId(QQ_RESOURCE_ID).stateless(false);
         }
 
@@ -67,6 +67,7 @@ public class OAuth2ServerConfig {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/qq/info/**").access("#oauth2.hasScope('get_user_info')")
+                .antMatchers("/qq/userInfo/**").access("#oauth2.hasScope('get_user_info')")
                 .antMatchers("/qq/fans/**").access("#oauth2.hasScope('get_fanslist')");
         }
 
@@ -82,8 +83,19 @@ public class OAuth2ServerConfig {
         @Qualifier("authenticationManagerBean")
         private AuthenticationManager authenticationManager;
 
+        // 从数据库获取客户端配置
+        // @Autowired
+        // DataSource dataSource;
+        //
+        // @Bean
+        // public ClientDetailsService clientDetails() {
+        //     return new JdbcClientDetailsService(dataSource); // 管理客户端信息(自定创建)
+        // }
+
         @Override
         public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
+            // clients.withClientDetails(clientDetails()); // 从数据获取客户端配置
+
             clients.inMemory()
                     .withClient("aiqiyi") // app_id
                     .resourceIds(QQ_RESOURCE_ID)
@@ -91,17 +103,33 @@ public class OAuth2ServerConfig {
                     .authorities("ROLE_CLIENT")
                     .scopes("get_user_info", "get_fanslist") // 授权范围
                     .secret("my-secret-888888") // app_secret
-                    .redirectUris("http://localhost:9090/aiqiyi/qq/redirect") // 重定向地址
+                    .redirectUris("http://localhost:9090/jump") // 重定向地址
                     .autoApprove(true)
                     .autoApprove("get_user_info")
                     .and()
                     .withClient("youku")
-                    .resourceIds(QQ_RESOURCE_ID)
                     .authorizedGrantTypes("authorization_code", "refresh_token", "implicit")
-                    .authorities("ROLE_CLIENT")
                     .scopes("get_user_info", "get_fanslist")
-                    .secret("secret")
-                    .redirectUris("http://localhost:9090/youku/qq/redirect");
+                    .secret("my-secret-999999")
+                    .redirectUris("http://aezocn.local:8081/login/oauth2/code/youku") // 本地hosts文件中加 `127.0.1 aezocn.local` 的映射
+                    .autoApprove(true)
+                    // sso测试
+                    .and()
+                    .withClient("client1")
+                    .authorities("USER") // 客户端的权限。Granted Authorities
+                    .authorizedGrantTypes("authorization_code", "refresh_token", "implicit")
+                    .scopes("get_user_info", "read", "write")
+                    .secret("my-secret-999999")
+                    .redirectUris("http://aezocn.local:8081/login")
+                    // .autoApprove(true) // 设置为true则默认授权上面所以的scope，否则需要选择授权scope
+                    .and()
+                    .withClient("client2")
+                    .authorizedGrantTypes("authorization_code", "refresh_token", "implicit")
+                    .scopes("get_user_info")
+                    .secret("my-secret-999999")
+                    .redirectUris("http://smalle.local:8082/login") // 本地hosts文件中加 `127.0.1 smalle.local` 的映射
+                    .autoApprove(true)
+                    ;
         }
 
         @Bean

@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+security:
+  oauth2:
+    client:
+      clientId: client1
+      clientSecret: my-secret-999999
+      userAuthorizationUri: http://localhost:8080/oauth/authorize
+      accessTokenUri: http://localhost:8080/oauth/token
+    resource:
+      userInfoUri: http://localhost:8080/qq/user/me # 获取用户信息端点(必须)

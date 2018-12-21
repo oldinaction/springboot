@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>登录第三方账号</title>
+</head>
+<body>
+
+登录第三方账号：<br/>
+<a href="http://localhost:8080/oauth/authorize?client_id=aiqiyi&response_type=code&redirect_uri=http://localhost:9090/jump">
+    QQ号登录爱奇艺
+</a>
+
+<br/><br/>
+<a href="http://localhost:8080/oauth/authorize?client_id=aiqiyi&response_type=code&redirect_uri=http://localhost:9090/abc">
+    QQ号登录爱奇艺(报错测试)
+</a>
+(error="invalid_grant", error_description="Invalid redirect: http://localhost:9090/abc does not match one of the registered values: [http://localhost:9090/jump]")
+
+</body>
+</html>

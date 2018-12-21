@@ -57,20 +57,20 @@ public class OAuth2ServerConfig {
             String finalSecret = "{bcrypt}" + new BCryptPasswordEncoder().encode("123456");
             // 配置两个客户端,一个用于password认证一个用于client认证
             clients.inMemory()
-                    // 基于client认证
+                    // 基于client认证(只需client_credentials)
                     .withClient("client_1")
                     .resourceIds(DEMO_RESOURCE_ID)
-                    .authorizedGrantTypes("client_credentials", "refresh_token")
+                    .authorizedGrantTypes("client_credentials", "password", "refresh_token")
                     .scopes("select")
-                    .authorities("oauth2")
+                    .authorities("ROLE_ADMIN")
                     .secret(finalSecret)
                     .and()
-                    // 基于password认证
+                    // 基于password认证(只需password)
                     .withClient("client_2")
                     .resourceIds(DEMO_RESOURCE_ID)
-                    .authorizedGrantTypes("password", "refresh_token")
+                    .authorizedGrantTypes("password", "client_credentials", "refresh_token")
                     .scopes("select")
-                    .authorities("oauth2")
+                    .authorities("ROLE_USER_CLIENT")
                     .secret(finalSecret);
         }
 

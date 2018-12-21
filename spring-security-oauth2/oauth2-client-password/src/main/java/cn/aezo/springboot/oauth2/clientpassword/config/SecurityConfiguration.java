@@ -4,6 +4,7 @@ package cn.aezo.springboot.oauth2.clientpassword.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -17,6 +18,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 // 认证服务器配置，基于Spring Security验证用户名/密码
 @Configuration
 @EnableWebSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     // 在内存中定义几个用户
     @Bean
@@ -30,8 +32,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         // password 方案三：支持多种编码，通过密码的前缀区分编码方式
         String finalPassword = "{bcrypt}" + bCryptPasswordEncoder.encode("123456");
         InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-        manager.createUser(User.withUsername("user_1").password(finalPassword).authorities("USER").build());
-        manager.createUser(User.withUsername("user_2").password(finalPassword).authorities("USER").build());
+        manager.createUser(User.withUsername("user_1").password(finalPassword).authorities("ROLE_USER").build());
+        manager.createUser(User.withUsername("user_2").password(finalPassword).authorities("ROLE_ADMIN").build());
         return manager;
     }
 
@@ -49,13 +51,14 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     // password 方案三：支持多种编码，通过密码的前缀区分编码方式,推荐
     @Bean
-    PasswordEncoder passwordEncoder(){
+    PasswordEncoder passwordEncoder() {
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
     }
 
 
    /**
-    * 这一步的配置是必不可少的，否则SpringBoot会自动配置一个AuthenticationManager，覆盖掉内存中的用户
+    * 这一步的配置是必不可少的，否则SpringBoot会自动配置一个AuthenticationManager，覆盖掉内存中的用户(方法名称不建议为authenticationManager)
+    * https://github.com/spring-projects/spring-boot/issues/12395
     */
     @Bean
     @Override
