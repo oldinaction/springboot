@@ -7,7 +7,7 @@
 - `spring-data-rest`(1.5.6) 2018-09-23
 - `spring-security-oauth2`(2.0.1) 2018-09-24
 - `spring-security-thymeleaf`(1.5.6)
-- `swagger`(1.5.6) 2018-09-23
+- `swagger`(2.0.1) 2018-09-23
 - `webservice`(1.5.6)
 - `websocket`(1.5.6) 2018-09-23
 - `dynamic-datasource`(2.0.1) 2018-11-28 多数据源; 动态数据源; 运行时动态添加数据源
