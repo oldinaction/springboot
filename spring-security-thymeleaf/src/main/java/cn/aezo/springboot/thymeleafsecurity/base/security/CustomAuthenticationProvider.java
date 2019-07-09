@@ -2,6 +2,7 @@ package cn.aezo.springboot.thymeleafsecurity.base.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
@@ -39,6 +40,10 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
         if(!StringUtils.isEmpty(username) && !StringUtils.isEmpty(password)) {
             try {
                 userDetails = customUserDetailsService.loadUserByUsername(username);
+
+                if(userDetails == null || userDetails.getPassword() == null || !password.equals(userDetails.getPassword())) {
+                    throw new BadCredentialsException("密码错误(invalid password)");
+                }
             } catch (UsernameNotFoundException e) {
                 e.printStackTrace();
             }

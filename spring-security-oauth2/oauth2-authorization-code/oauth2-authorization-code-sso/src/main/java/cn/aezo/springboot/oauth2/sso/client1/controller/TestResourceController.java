@@ -59,7 +59,7 @@ public class TestResourceController {
     }
     @RequestMapping("/res/write")
     public String write(Authentication authentication) {
-        String toke = ((OAuth2AuthenticationDetails) authentication.getDetails()).getTokenValue();
+        String toke = ((OAuth2AuthenticationDetails) authentication.getDetails()).getTokenValue(); // 获取的是客户端token
         String result = oAuth2RestTemplate.postForObject("http://localhost:8083/api/write/1?access_token=" + toke, null, String.class);
         return result;
     }

@@ -17,6 +17,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+    // 如果使用的是自定义AuthenticationProvider，则需要在实现方法中对密码进行判断
     @Bean
     @Override
     protected UserDetailsService userDetailsService() {

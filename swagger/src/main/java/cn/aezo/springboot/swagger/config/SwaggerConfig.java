@@ -46,7 +46,7 @@ public class SwaggerConfig {
                 // .apis(RequestHandlerSelectors.basePackage("cn.aezo.controller")) // 基于包名扫描
                 .paths(PathSelectors.any())
                 .build();
-                // .pathMapping("/v2"); // 在这里可以设置请求的统一前缀
+                // .pathMapping("/swagger/v1"); // 在这里可以设置请求的统一前缀
     }
 
     private ApiInfo apiInfo() {
