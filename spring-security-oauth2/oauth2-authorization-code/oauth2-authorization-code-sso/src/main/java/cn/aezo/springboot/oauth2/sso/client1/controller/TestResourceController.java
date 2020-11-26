@@ -18,7 +18,7 @@ public class TestResourceController {
     OAuth2RestTemplate oAuth2RestTemplate;
 
     @Bean
-    OAuth2RestTemplate oAuth2RestTemplate(OAuth2ClientContext oAuth2ClientContext){
+    OAuth2RestTemplate oAuth2RestTemplate(OAuth2ClientContext oAuth2ClientContext) {
         return new OAuth2RestTemplate(new AuthorizationCodeResourceDetails(), oAuth2ClientContext);
     }
 
@@ -57,6 +57,7 @@ public class TestResourceController {
         String result = new RestTemplate().getForObject("http://localhost:8083/api/read?id=1&access_token=" + toke, String.class);
         return result;
     }
+
     @RequestMapping("/res/write")
     public String write(Authentication authentication) {
         String toke = ((OAuth2AuthenticationDetails) authentication.getDetails()).getTokenValue(); // 获取的是客户端token

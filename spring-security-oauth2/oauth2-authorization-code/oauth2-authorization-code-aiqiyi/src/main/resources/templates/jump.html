@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head>
-    <meta charset="UTF-8">
-    <title>跳转中...</title>
+  <meta charset="UTF-8">
+  <title>跳转中...</title>
 </head>
 <body>
 跳转中...
@@ -11,79 +11,79 @@
 <div id="info"></div>
 
 <script>
-    window.onload = function() {
-        var code = sm.getUrlParam("code");
-        if(code != null && code !== "") {
-            console.log("code", code);
+  window.onload = function () {
+    var code = sm.getUrlParam("code");
+    if (code != null && code !== "") {
+      console.log("code", code);
 
-            // 获取信息
-            sm.ajax({
-                url: "http://localhost:9090/get_info?code=" + code,
-                success: function(data) {
-                    console.log("info", data);
-                    document.getElementById("info").innerText = JSON.stringify(data);
-                }
-            });
+      // 获取信息
+      sm.ajax({
+        url: "http://localhost:9090/get_info?code=" + code,
+        success: function (data) {
+          console.log("info", data);
+          document.getElementById("info").innerText = JSON.stringify(data);
         }
-    };
+      });
+    }
+  };
 
 
+  var sm = {}
+  sm.getUrlParam = function (paramName) {
+    var reg = new RegExp("(^|&)" + paramName + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return null;
+  };
+  sm.ajax = function (settings) {
+    var options = {
+      type: "GET",
+      url: "",
+      data: {}, // 支持FormData
+      async: true,
+      success: function (res) {
+        console.log(res);
+      }
+    }
+    settings = sm.mergeMap(options, settings);
 
-    var sm = {}
-    sm.getUrlParam = function(paramName) {
-        var reg = new RegExp("(^|&)"+ paramName +"=([^&]*)(&|$)");
-        var r = window.location.search.substr(1).match(reg);
-        if(r != null) return unescape(r[2]); return null;
-    };
-    sm.ajax = function(settings) {
-        var options = {
-            type: "GET",
-            url: "",
-            data: {}, // 支持FormData
-            async: true,
-            success: function(res) {
-                console.log(res);
-            }
+    var data = new FormData();
+    if (settings.data instanceof FormData) {
+      data = settings.data;
+    } else {
+      for (var key in settings.data) {
+        data.append(key, settings.data[key]);
+      }
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
+    xhr.addEventListener("readystatechange", function () {
+      if (this.readyState === 4 && this.responseText != "") {
+        if (settings.success) {
+          var res = this.responseText;
+          try {
+            res = JSON.parse(res);
+          } catch (e) {
+            console.warn(e);
+          }
+
+          settings.success(res);
         }
-        settings = sm.mergeMap(options, settings);
-
-        var data = new FormData();
-        if(settings.data instanceof FormData ) {
-            data = settings.data;
-        } else {
-            for(var key in settings.data) {
-                data.append(key, settings.data[key]);
-            }
-        }
-
-        var xhr = new XMLHttpRequest();
-        xhr.withCredentials = true;
-        xhr.addEventListener("readystatechange", function () {
-            if (this.readyState === 4 && this.responseText != "") {
-                if(settings.success) {
-                    var res = this.responseText;
-                    try {
-                        res = JSON.parse(res);
-                    } catch(e) {
-                        console.warn(e);
-                    }
-
-                    settings.success(res);
-                }
-            }
-        });
-        xhr.open(settings.type, settings.url);
-        xhr.send(data);
-    };
-    sm.mergeMap = function mergeMap(map) {
-        for(var i = 1; i < arguments.length; i++) {
-            var mergeMap = arguments[i];
-            for(var k in mergeMap) {
-                map[k] = mergeMap[k]
-            }
-        }
-        return map
-    };
+      }
+    });
+    xhr.open(settings.type, settings.url);
+    xhr.send(data);
+  };
+  sm.mergeMap = function mergeMap(map) {
+    for (var i = 1; i < arguments.length; i++) {
+      var mergeMap = arguments[i];
+      for (var k in mergeMap) {
+        map[k] = mergeMap[k]
+      }
+    }
+    return map
+  };
 </script>
 </body>
 </html>

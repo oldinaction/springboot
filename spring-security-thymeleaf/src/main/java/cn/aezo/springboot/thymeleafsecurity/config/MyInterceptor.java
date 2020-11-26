@@ -30,11 +30,11 @@ public class MyInterceptor implements HandlerInterceptor {
                            ModelAndView modelAndView) throws Exception {
         System.out.println(">>>>>>>>>>请求处理之后进行调用（Controller方法调用之后），但是在视图被渲染之前");
 
-        if(response.getStatus() == 500) {
+        if (response.getStatus() == 500) {
             modelAndView.setViewName("/error/500");
-        } else if(response.getStatus() == 404) {
+        } else if (response.getStatus() == 404) {
             modelAndView.setViewName("/error/404");
-        } else if(response.getStatus() == 403) {
+        } else if (response.getStatus() == 403) {
             modelAndView.setViewName("/error/403");
         }
     }

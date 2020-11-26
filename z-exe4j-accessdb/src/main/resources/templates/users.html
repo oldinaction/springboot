@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>用户列表</title>
+  <meta charset="UTF-8">
+  <title>用户列表</title>
 </head>
 <body>
 
 用户列表
 
 <table border="1">
-    <tr>
-        <th>ID</th>
-        <th>用户名</th>
-        <th>性别</th>
-        <th>生日</th>
-        <th>婚姻状况</th>
-    </tr>
-    <tr th:each="user:${users}">
-        <td th:text="${user.UserId}"></td>
-        <td th:text="${user.UserName}"></td>
-        <td th:text="${user.UserSex}"></td>
-        <td th:text="${user.UserBirthday}"></td>
-        <td th:text="${user.UserMarried}"></td>
-    </tr>
+  <tr>
+    <th>ID</th>
+    <th>用户名</th>
+    <th>性别</th>
+    <th>生日</th>
+    <th>婚姻状况</th>
+  </tr>
+  <tr th:each="user:${users}">
+    <td th:text="${user.UserId}"></td>
+    <td th:text="${user.UserName}"></td>
+    <td th:text="${user.UserSex}"></td>
+    <td th:text="${user.UserBirthday}"></td>
+    <td th:text="${user.UserMarried}"></td>
+  </tr>
 </table>
 
 </body>

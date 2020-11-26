@@ -2,7 +2,9 @@ package cn.aezo.springboot.datasource.generator.dao;
 
 import cn.aezo.springboot.datasource.generator.model.UserClass;
 import cn.aezo.springboot.datasource.generator.model.UserClassExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UserClassMapper {

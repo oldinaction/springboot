@@ -53,10 +53,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
     }
 
-   /**
-    * 这一步的配置是必不可少的，否则SpringBoot会自动配置一个AuthenticationManager
-    * 方法名称不建议为authenticationManager(否则password模式获取token失败). https://github.com/spring-projects/spring-boot/issues/12395
-    */
+    /**
+     * 这一步的配置是必不可少的，否则SpringBoot会自动配置一个AuthenticationManager
+     * 方法名称不建议为authenticationManager(否则password模式获取token失败). https://github.com/spring-projects/spring-boot/issues/12395
+     */
     @Bean
     @Override
     public AuthenticationManager authenticationManagerBean() throws Exception {
@@ -67,8 +67,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.requestMatchers().anyRequest()
-            .and()
-            .authorizeRequests()
-            .antMatchers("/oauth/**").permitAll();
+                .and()
+                .authorizeRequests()
+                .antMatchers("/oauth/**").permitAll();
     }
 }

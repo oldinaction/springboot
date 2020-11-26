@@ -23,7 +23,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     // 在内存中定义几个用户
     @Bean
     @Override
-    protected UserDetailsService userDetailsService(){
+    protected UserDetailsService userDetailsService() {
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
         // password 方案一：明文存储，用于测试，不能用于生产
         // String finalPassword = "123456";
@@ -56,10 +56,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     }
 
 
-   /**
-    * 这一步的配置是必不可少的，否则SpringBoot会自动配置一个AuthenticationManager，覆盖掉内存中的用户(方法名称不建议为authenticationManager)
-    * https://github.com/spring-projects/spring-boot/issues/12395
-    */
+    /**
+     * 这一步的配置是必不可少的，否则SpringBoot会自动配置一个AuthenticationManager，覆盖掉内存中的用户(方法名称不建议为authenticationManager)
+     * https://github.com/spring-projects/spring-boot/issues/12395
+     */
     @Bean
     @Override
     public AuthenticationManager authenticationManagerBean() throws Exception {
@@ -70,8 +70,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.requestMatchers().anyRequest()
-            .and()
-            .authorizeRequests()
-            .antMatchers("/oauth/**").permitAll();
+                .and()
+                .authorizeRequests()
+                .antMatchers("/oauth/**").permitAll();
     }
 }

@@ -14,7 +14,7 @@ public class ResController {
     Oauth2Utils oauth2Utils;
 
     @RequestMapping("/res")
-    public User info(@RequestParam("access_token") String accessToken){
+    public User info(@RequestParam("access_token") String accessToken) {
         OAuth2Authentication oAuth2Authentication = oauth2Utils.getAuthenticationInOauth2Server(accessToken);
         User user = ((User) oAuth2Authentication.getUserAuthentication().getPrincipal());
         return user;

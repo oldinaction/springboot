@@ -2,7 +2,9 @@ package cn.aezo.springboot.datasource.generator.dao;
 
 import cn.aezo.springboot.datasource.generator.model.GroupInfo;
 import cn.aezo.springboot.datasource.generator.model.GroupInfoExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface GroupInfoMapper {

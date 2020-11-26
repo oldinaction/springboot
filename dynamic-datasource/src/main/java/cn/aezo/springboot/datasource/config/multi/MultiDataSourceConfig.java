@@ -16,7 +16,7 @@ public class MultiDataSourceConfig {
     // access数据源
     @Bean(name = "accessDataSource")
     @Qualifier("accessDataSource")
-    @ConfigurationProperties(prefix="spring.datasource.access-one")
+    @ConfigurationProperties(prefix = "spring.datasource.access-one")
     public DataSource accessDataSource() {
         return DataSourceBuilder.create().build();
     }
@@ -24,7 +24,7 @@ public class MultiDataSourceConfig {
     // mysql数据源
     @Bean(name = "mysqlDataSource")
     @Qualifier("mysqlDataSource")
-    @ConfigurationProperties(prefix="spring.datasource.mysql-one")
+    @ConfigurationProperties(prefix = "spring.datasource.mysql-one")
     @Primary // 默认数据源
     public DataSource mysqlDataSource() {
         return DataSourceBuilder.create().build();
@@ -33,7 +33,7 @@ public class MultiDataSourceConfig {
     // sqlserver数据源
     @Bean(name = "sqlserverDataSource")
     @Qualifier("sqlserverDataSource")
-    @ConfigurationProperties(prefix="spring.datasource.sqlserver-one")
+    @ConfigurationProperties(prefix = "spring.datasource.sqlserver-one")
     public DataSource sqlserverDataSource() {
         return DataSourceBuilder.create().build();
     }

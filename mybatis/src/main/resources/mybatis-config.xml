@@ -23,5 +23,7 @@
             <!--更多参数配置：https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md-->
             <!--<property name="pageSizeZero" value="true"/>-->
         </plugin>
+
+        <plugin interceptor="cn.aezo.springboot.datasource.interceptor.log.MybatisLogsInterceptor"></plugin>
     </plugins>
 </configuration>

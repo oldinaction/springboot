@@ -17,7 +17,8 @@ public class User implements Serializable {
     @ApiModelProperty("密码")
     private String password;
 
-    public User() {}
+    public User() {
+    }
 
     public User(Long id, String username, String password) {
         this.id = id;

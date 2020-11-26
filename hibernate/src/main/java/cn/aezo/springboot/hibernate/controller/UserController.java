@@ -1,9 +1,9 @@
-package cn.aezo.springboot.exe4jaccessdb.controller;
+package cn.aezo.springboot.hibernate.controller;
 
-import cn.aezo.springboot.exe4jaccessdb.dao.UserClassDao;
-import cn.aezo.springboot.exe4jaccessdb.dao.UserDao;
-import cn.aezo.springboot.exe4jaccessdb.model.User;
-import cn.aezo.springboot.exe4jaccessdb.model.UserClass;
+import cn.aezo.springboot.hibernate.dao.UserClassDao;
+import cn.aezo.springboot.hibernate.dao.UserDao;
+import cn.aezo.springboot.hibernate.model.User;
+import cn.aezo.springboot.hibernate.model.UserClass;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
@@ -33,6 +33,7 @@ public class UserController {
 
     /**
      * `@RequestBody` 时, Content-Type 必须为 application/json. 传入参数：(1) 无需传入主键, 会自动递增 (2) 参数和实体字段不必完全匹配, 可多可少
+     *
      * @param user
      * @return
      */

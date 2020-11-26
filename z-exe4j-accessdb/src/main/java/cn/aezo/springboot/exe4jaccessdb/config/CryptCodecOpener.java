@@ -14,8 +14,8 @@ import java.io.IOException;
  */
 @Configuration
 public class CryptCodecOpener implements JackcessOpenerInterface {
-    public Database open(File fl,String pwd) throws IOException {
-        DatabaseBuilder dbd =new DatabaseBuilder(fl);
+    public Database open(File fl, String pwd) throws IOException {
+        DatabaseBuilder dbd = new DatabaseBuilder(fl);
         dbd.setAutoSync(false);
         dbd.setCodecProvider(new CryptCodecProvider(pwd));
         dbd.setReadOnly(false);

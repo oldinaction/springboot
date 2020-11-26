@@ -14,7 +14,7 @@ public class DynamicDataSourceConfig {
     // mysql-one数据源
     @Bean(name = "mysqlDataSourceDynamic")
     @Qualifier("mysqlDataSourceDynamic")
-    @ConfigurationProperties(prefix="spring.datasource.mysql-one")
+    @ConfigurationProperties(prefix = "spring.datasource.mysql-one")
     public DataSource mysqlDataSourceDynamic() {
         return DataSourceBuilder.create().build();
     }
@@ -22,7 +22,7 @@ public class DynamicDataSourceConfig {
     // mysql-two数据源
     @Bean(name = "mysqlTwoDataSourceDynamic")
     @Qualifier("mysqlTwoDataSourceDynamic")
-    @ConfigurationProperties(prefix="spring.datasource.mysql-two")
+    @ConfigurationProperties(prefix = "spring.datasource.mysql-two")
     public DataSource mysqlTwoDataSourceDynamic() {
         return DataSourceBuilder.create().build();
     }

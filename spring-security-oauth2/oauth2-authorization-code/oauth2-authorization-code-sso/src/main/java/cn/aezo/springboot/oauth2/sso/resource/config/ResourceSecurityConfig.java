@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 
 @Configuration
 @EnableResourceServer
-@EnableGlobalMethodSecurity(prePostEnabled=true) // 开启在方法上配置@PreAuthorize("#oauth2.hasScope('read')")等
+@EnableGlobalMethodSecurity(prePostEnabled = true) // 开启在方法上配置@PreAuthorize("#oauth2.hasScope('read')")等
 public class ResourceSecurityConfig extends ResourceServerConfigurerAdapter {
 
     /**
@@ -24,14 +24,14 @@ public class ResourceSecurityConfig extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
-            .authorizeRequests()
-            .antMatchers("/", "/webjars/**").permitAll()
-            // 只有GET类型的此路径才匹配
-            .antMatchers(HttpMethod.GET,"/api/read/**").access("#oauth2.hasScope('read')")
-            // 匹配所有HTTP请求类型
-            .antMatchers("/api/write/**").access("hasRole('ROLE_USER') and #oauth2.hasScope('write')")
-            // 一般放在最后
-            .and().authorizeRequests().anyRequest().authenticated();
+                .authorizeRequests()
+                .antMatchers("/", "/webjars/**").permitAll()
+                // 只有GET类型的此路径才匹配
+                .antMatchers(HttpMethod.GET, "/api/read/**").access("#oauth2.hasScope('read')")
+                // 匹配所有HTTP请求类型
+                .antMatchers("/api/write/**").access("hasRole('ROLE_USER') and #oauth2.hasScope('write')")
+                // 一般放在最后
+                .and().authorizeRequests().anyRequest().authenticated();
     }
 
     @Override

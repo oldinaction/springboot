@@ -28,12 +28,12 @@ public class CustomUserDetailsService implements UserDetailsService {
     // 根据自定义登录认证字段获取用户信息。此处简化微信公众号认证(原本需要先拿到openid)
     public UserDetails loadUserByWxCode(String wxCode)
             throws UsernameNotFoundException {
-        if(wxCode == null || "".equals(wxCode)) {
+        if (wxCode == null || "".equals(wxCode)) {
             throw new UsernameNotFoundException("invalid wxCode " + wxCode);
         }
 
         User user = userDao.findByWxCode(wxCode);
-        if(user == null) {
+        if (user == null) {
             throw new UsernameNotFoundException("Could not find user, user wxCode " + wxCode);
         }
         return new CustomUserDetails(user);
@@ -43,12 +43,12 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username)
             throws UsernameNotFoundException {
-        if(username == null || "".equals(username)) {
+        if (username == null || "".equals(username)) {
             throw new UsernameNotFoundException("invalid username " + username);
         }
 
         User user = userDao.findByUsername(username);
-        if(user == null) {
+        if (user == null) {
             throw new UsernameNotFoundException("Could not find user " + username);
         }
         return new CustomUserDetails(user);

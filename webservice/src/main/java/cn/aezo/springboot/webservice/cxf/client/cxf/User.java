@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  * <p>user complex type的 Java 类。
- * 
+ *
  * <p>以下模式片段指定包含在此类中的预期内容。
- * 
+ *
  * <pre>
  * &lt;complexType name="user"&gt;
  *   &lt;complexContent&gt;
@@ -27,15 +27,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "user", propOrder = {
-    "age",
-    "updateTime",
-    "userId",
-    "username"
+        "age",
+        "updateTime",
+        "userId",
+        "username"
 })
 public class User {
 
@@ -47,11 +45,9 @@ public class User {
 
     /**
      * 获取age属性的值。
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getAge() {
         return age;
@@ -59,11 +55,9 @@ public class User {
 
     /**
      * 设置age属性的值。
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setAge(String value) {
         this.age = value;
@@ -71,11 +65,9 @@ public class User {
 
     /**
      * 获取updateTime属性的值。
-     * 
-     * @return
-     *     possible object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @return possible object is
+     * {@link XMLGregorianCalendar }
      */
     public XMLGregorianCalendar getUpdateTime() {
         return updateTime;
@@ -83,11 +75,9 @@ public class User {
 
     /**
      * 设置updateTime属性的值。
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link XMLGregorianCalendar }
      */
     public void setUpdateTime(XMLGregorianCalendar value) {
         this.updateTime = value;
@@ -95,11 +85,9 @@ public class User {
 
     /**
      * 获取userId属性的值。
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getUserId() {
         return userId;
@@ -107,11 +95,9 @@ public class User {
 
     /**
      * 设置userId属性的值。
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setUserId(String value) {
         this.userId = value;
@@ -119,11 +105,9 @@ public class User {
 
     /**
      * 获取username属性的值。
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getUsername() {
         return username;
@@ -131,11 +115,9 @@ public class User {
 
     /**
      * 设置username属性的值。
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setUsername(String value) {
         this.username = value;

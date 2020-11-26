@@ -4,14 +4,15 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
     <!--数据库驱动 -->
-    <classPathEntry location="C:\Users\smalle\.m2\repository\mysql\mysql-connector-java\5.1.43\mysql-connector-java-5.1.43.jar" />
+    <classPathEntry
+            location="C:\Users\smalle\.m2\repository\mysql\mysql-connector-java\5.1.43\mysql-connector-java-5.1.43.jar"/>
     <context id="MySQLTables" targetRuntime="MyBatis3" defaultModelType="flat">
 
         <commentGenerator>
             <!-- false时打开时间标志，true时关闭 -->
-            <property name="suppressDate" value="true" />
+            <property name="suppressDate" value="true"/>
             <!-- false时打开注释，true时关闭注释 -->
-            <property name="suppressAllComments" value="true" />
+            <property name="suppressAllComments" value="true"/>
         </commentGenerator>
 
         <!--数据库链接地址账号密码 -->
@@ -23,22 +24,22 @@
         </jdbcConnection>
 
         <javaTypeResolver>
-            <property name="forceBigDecimals" value="false" />
+            <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
         <!--生成Model类存放位置 -->
         <javaModelGenerator
                 targetPackage="cn.aezo.springboot.datasource.generator.model"
                 targetProject="src/main/java">
-            <property name="enableSubPackages" value="true" />
-            <property name="trimStrings" value="true" />
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <!--生成映射文件存放位置 -->
         <sqlMapGenerator
                 targetPackage="cn.aezo.springboot.datasource.generator.mapper"
                 targetProject="src/main/java">
-            <property name="enableSubPackages" value="true" />
+            <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <!--生成Dao类存放位置 -->
@@ -46,7 +47,7 @@
                 type="XMLMAPPER"
                 targetPackage="cn.aezo.springboot.datasource.generator.dao"
                 targetProject="src/main/java">
-            <property name="enableSubPackages" value="true" />
+            <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
         <!-- %标识根据表名生成，tableName="t_%"表示只生成t_开头的表名 -->
@@ -57,7 +58,7 @@
                 3、sqlStatement="MySql/DB2/SqlServer等"
                 4、identity：true表示column代表的是主键，会在插入记录之后获取自增值替换对应model的id值(自增需要由数据库提供)，false表示非主键，会在插入记录获取自增值并替换model的id(如从序列中获取)
             -->
-            <generatedKey column="id" sqlStatement="MySql" identity="true" />
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>
 </generatorConfiguration>

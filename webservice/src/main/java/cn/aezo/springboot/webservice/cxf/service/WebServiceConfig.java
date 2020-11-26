@@ -15,7 +15,7 @@ import javax.xml.ws.Endpoint;
 public class WebServiceConfig {
     @Bean
     public ServletRegistrationBean dispatcherServlet() {
-        return new ServletRegistrationBean(new CXFServlet(),"/services/*"); // 发布服务名称
+        return new ServletRegistrationBean(new CXFServlet(), "/services/*"); // 发布服务名称
     }
 
     @Bean(name = Bus.DEFAULT_BUS_ID)

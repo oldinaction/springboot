@@ -10,10 +10,10 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>getAllUserResponse complex typeµÄ Java Àà¡£
- * 
- * <p>ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖÐµÄÔ¤ÆÚÄÚÈÝ¡£
- * 
+ * <p>getAllUserResponse complex typeï¿½ï¿½ Java ï¿½à¡£
+ *
+ * <p>ï¿½ï¿½ï¿½ï¿½Ä£Ê½Æ¬ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½Ý¡ï¿½
+ *
  * <pre>
  * &lt;complexType name="getAllUserResponse">
  *   &lt;complexContent>
@@ -25,12 +25,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "getAllUserResponse", propOrder = {
-    "_return"
+        "_return"
 })
 public class GetAllUserResponse {
 
@@ -39,25 +37,23 @@ public class GetAllUserResponse {
 
     /**
      * Gets the value of the return property.
-     * 
+     * <p>
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
      * This is why there is not a <CODE>set</CODE> method for the return property.
-     * 
+     * <p>
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
      *    getReturn().add(newItem);
      * </pre>
-     * 
-     * 
+     * <p>
+     * <p>
      * <p>
      * Objects of the following type(s) are allowed in the list
      * {@link User }
-     * 
-     * 
      */
     public List<User> getReturn() {
         if (_return == null) {

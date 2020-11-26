@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>h2000加密</title>
+  <meta charset="UTF-8">
+  <title>h2000加密</title>
 </head>
 <body>
 
 <table border="1">
-    <tr>
-        <th>pre_entry_id</th>
-        <th>manual_no</th>
-        <th>d_date</th>
-        <th>trade_name</th>
-        <th>agent_code(encode)</th>
-    </tr>
-    <tr th:each="item:${heads}">
-        <td th:text="${item.pre_entry_id}"></td>
-        <td th:text="${item.manual_no}"></td>
-        <td th:text="${item.d_date}"></td>
-        <td th:text="${item.trade_name}"></td>
-        <td th:text="${item.agent_code}"></td>
-    </tr>
+  <tr>
+    <th>pre_entry_id</th>
+    <th>manual_no</th>
+    <th>d_date</th>
+    <th>trade_name</th>
+    <th>agent_code(encode)</th>
+  </tr>
+  <tr th:each="item:${heads}">
+    <td th:text="${item.pre_entry_id}"></td>
+    <td th:text="${item.manual_no}"></td>
+    <td th:text="${item.d_date}"></td>
+    <td th:text="${item.trade_name}"></td>
+    <td th:text="${item.agent_code}"></td>
+  </tr>
 </table>
 
 </body>

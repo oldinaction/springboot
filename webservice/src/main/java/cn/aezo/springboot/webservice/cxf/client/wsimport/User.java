@@ -9,10 +9,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>user complex typeµÄ Java Àà¡£
- * 
- * <p>ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖÐµÄÔ¤ÆÚÄÚÈÝ¡£
- * 
+ * <p>user complex typeï¿½ï¿½ Java ï¿½à¡£
+ *
+ * <p>ï¿½ï¿½ï¿½ï¿½Ä£Ê½Æ¬ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½Ý¡ï¿½
+ *
  * <pre>
  * &lt;complexType name="user">
  *   &lt;complexContent>
@@ -27,15 +27,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "user", propOrder = {
-    "age",
-    "updateTime",
-    "userId",
-    "username"
+        "age",
+        "updateTime",
+        "userId",
+        "username"
 })
 public class User {
 
@@ -46,96 +44,80 @@ public class User {
     protected String username;
 
     /**
-     * »ñÈ¡ageÊôÐÔµÄÖµ¡£
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     * ï¿½ï¿½È¡ageï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getAge() {
         return age;
     }
 
     /**
-     * ÉèÖÃageÊôÐÔµÄÖµ¡£
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     * ï¿½ï¿½ï¿½ï¿½ageï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setAge(String value) {
         this.age = value;
     }
 
     /**
-     * »ñÈ¡updateTimeÊôÐÔµÄÖµ¡£
-     * 
-     * @return
-     *     possible object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     * ï¿½ï¿½È¡updateTimeï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @return possible object is
+     * {@link XMLGregorianCalendar }
      */
     public XMLGregorianCalendar getUpdateTime() {
         return updateTime;
     }
 
     /**
-     * ÉèÖÃupdateTimeÊôÐÔµÄÖµ¡£
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     * ï¿½ï¿½ï¿½ï¿½updateTimeï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @param value allowed object is
+     *              {@link XMLGregorianCalendar }
      */
     public void setUpdateTime(XMLGregorianCalendar value) {
         this.updateTime = value;
     }
 
     /**
-     * »ñÈ¡userIdÊôÐÔµÄÖµ¡£
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     * ï¿½ï¿½È¡userIdï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getUserId() {
         return userId;
     }
 
     /**
-     * ÉèÖÃuserIdÊôÐÔµÄÖµ¡£
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     * ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setUserId(String value) {
         this.userId = value;
     }
 
     /**
-     * »ñÈ¡usernameÊôÐÔµÄÖµ¡£
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     * ï¿½ï¿½È¡usernameï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getUsername() {
         return username;
     }
 
     /**
-     * ÉèÖÃusernameÊôÐÔµÄÖµ¡£
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     * ï¿½ï¿½ï¿½ï¿½usernameï¿½ï¿½ï¿½Ôµï¿½Öµï¿½ï¿½
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setUsername(String value) {
         this.username = value;

@@ -37,10 +37,10 @@ public class MyClient {
         JaxWsDynamicClientFactory clientFactory = JaxWsDynamicClientFactory.newInstance();
         Client client = clientFactory.createClient("http://localhost:8080/services/user?wsdl");
 
-        Object[] objects1 = client.invoke("getName","1");
+        Object[] objects1 = client.invoke("getName", "1");
         System.out.println("=========>getName=" + objects1[0].toString());
 
-        Object[] objects2 = client.invoke("getUser","1"); // 返回的是服务端扔出来的User对象
+        Object[] objects2 = client.invoke("getUser", "1"); // 返回的是服务端扔出来的User对象
         System.out.println("=========>getUser=" + objects2[0].toString());
 
         Object[] objects3 = client.invoke("getAllUser");
@@ -74,8 +74,8 @@ public class MyClient {
     public static void invoke3() throws Exception {
         cn.aezo.springboot.webservice.cxf.client.wsimport.UserServiceWeb userServiceWeb =
                 new cn.aezo.springboot.webservice.cxf.client.wsimport.UserServiceWeb(
-                    new URL("http://localhost:8080/services/user?wsdl"), // wsdlURL
-                    new QName("http://service.cxf.webservice.springboot.aezo.cn/", "UserServiceWeb") // SERVICE_NAME
+                        new URL("http://localhost:8080/services/user?wsdl"), // wsdlURL
+                        new QName("http://service.cxf.webservice.springboot.aezo.cn/", "UserServiceWeb") // SERVICE_NAME
                 );
         cn.aezo.springboot.webservice.cxf.client.wsimport.UserService port = userServiceWeb.getUserServiceImplPort();
         String username = port.getName("1");
@@ -95,8 +95,8 @@ public class MyClient {
         cn.aezo.springboot.webservice.cxf.client.cxf.UserServiceWeb ss =
                 // new cn.aezo.springboot.webservice.cxf.client.cxf.UserServiceWeb(); // 此时也可以调用成功
                 new cn.aezo.springboot.webservice.cxf.client.cxf.UserServiceWeb(
-                    new URL("http://localhost:8080/services/user?wsdl"), // wsdlURL
-                    new QName("http://service.cxf.webservice.springboot.aezo.cn/", "UserServiceWeb") // SERVICE_NAME
+                        new URL("http://localhost:8080/services/user?wsdl"), // wsdlURL
+                        new QName("http://service.cxf.webservice.springboot.aezo.cn/", "UserServiceWeb") // SERVICE_NAME
                 );
         cn.aezo.springboot.webservice.cxf.client.cxf.UserService port = ss.getUserServiceImplPort();
         String username = port.getName(new Random().toString());
@@ -106,7 +106,7 @@ public class MyClient {
     public void invokeThread() {
         for (int i = 0; i < 1000; i++) {
             Thread myThread = new Thread(new MyRun());
-            myThread.setName("exe-" + (i+1));
+            myThread.setName("exe-" + (i + 1));
             myThread.start();
         }
     }

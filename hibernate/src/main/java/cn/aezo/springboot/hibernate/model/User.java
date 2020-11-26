@@ -1,4 +1,4 @@
-package cn.aezo.springboot.exe4jaccessdb.model;
+package cn.aezo.springboot.hibernate.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -25,7 +25,8 @@ public class User {
 
     private Integer sex;
 
-    protected User() {}
+    protected User() {
+    }
 
     public User(String username) {
         this.username = username;

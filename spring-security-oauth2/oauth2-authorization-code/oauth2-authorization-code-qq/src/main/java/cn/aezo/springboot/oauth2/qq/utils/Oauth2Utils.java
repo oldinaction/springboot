@@ -14,10 +14,11 @@ public class Oauth2Utils {
 
     /**
      * oauth2 认证服务器直接处理校验请求的逻辑
+     *
      * @param accessToken
      * @return
      */
-    public OAuth2AccessToken checkTokenInOauth2Server(String accessToken){
+    public OAuth2AccessToken checkTokenInOauth2Server(String accessToken) {
         TokenStore tokenStore = (TokenStore) applicationContext.getBean(TokenStore.class);
         OAuth2AccessToken oAuth2AccessToken = tokenStore.readAccessToken(accessToken);
         return oAuth2AccessToken;
@@ -25,10 +26,11 @@ public class Oauth2Utils {
 
     /**
      * oauth2 认证服务器直接处理校验请求的逻辑
+     *
      * @param accessToken
      * @return
      */
-    public OAuth2Authentication getAuthenticationInOauth2Server(String accessToken){
+    public OAuth2Authentication getAuthenticationInOauth2Server(String accessToken) {
         TokenStore tokenStore = (TokenStore) applicationContext.getBean(TokenStore.class);
         OAuth2Authentication oAuth2Authentication = tokenStore.readAuthentication(accessToken);
         return oAuth2Authentication;

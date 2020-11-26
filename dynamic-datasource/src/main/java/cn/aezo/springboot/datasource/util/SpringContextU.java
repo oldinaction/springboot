@@ -12,7 +12,7 @@ public class SpringContextU implements ApplicationContextAware {
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        if(SpringContextU.applicationContext == null) {
+        if (SpringContextU.applicationContext == null) {
             SpringContextU.applicationContext = applicationContext;
         }
     }
@@ -23,17 +23,17 @@ public class SpringContextU implements ApplicationContextAware {
     }
 
     // 通过name获取 Bean
-    public static Object getBean(String name){
+    public static Object getBean(String name) {
         return getApplicationContext().getBean(name);
     }
 
     // 通过class获取Bean
-    public static <T> T getBean(Class<T> clazz){
+    public static <T> T getBean(Class<T> clazz) {
         return getApplicationContext().getBean(clazz);
     }
 
     // 通过name以及Clazz返回指定的Bean
-    public static <T> T getBean(String name,Class<T> clazz){
+    public static <T> T getBean(String name, Class<T> clazz) {
         return getApplicationContext().getBean(name, clazz);
     }
 }

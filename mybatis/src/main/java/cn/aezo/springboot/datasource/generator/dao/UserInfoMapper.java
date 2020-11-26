@@ -2,7 +2,9 @@ package cn.aezo.springboot.datasource.generator.dao;
 
 import cn.aezo.springboot.datasource.generator.model.UserInfo;
 import cn.aezo.springboot.datasource.generator.model.UserInfoExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UserInfoMapper {

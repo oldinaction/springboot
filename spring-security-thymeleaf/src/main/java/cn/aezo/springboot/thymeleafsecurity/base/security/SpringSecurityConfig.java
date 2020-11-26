@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 // 权限认证：https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#authorization
 @Configuration
-@EnableGlobalMethodSecurity(prePostEnabled=true) // 开启方法级别权限控制
+@EnableGlobalMethodSecurity(prePostEnabled = true) // 开启方法级别权限控制
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
@@ -55,24 +55,24 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.headers().frameOptions().disable(); // 解决spring boot项目中出现不能加载iframe
         http.csrf().disable()
-            .authorizeRequests()
+                .authorizeRequests()
                 .antMatchers("/manage/", "/manage/home", "/manage/about", "/manage/404", "/manage/403", "/thymeleaf/**").permitAll() // 这些端点不进行权限验证
                 .antMatchers("/resources/**").permitAll() // idea的resources/static目录下的文件夹对应一个端点，相当于可以访问resources/static/resources/下所有文件（还有一些默认的端点：/css/**、/js/**、/images/**、/webjars/**、/**/favicon.ico）
                 .antMatchers("/manage/**").hasAnyRole("ADMIN") // 需要有ADMIN角色才可访问/admin（有先后顺序，前面先定义的优先级高，因此比antMatchers("/**").hasAnyRole("USER", "ADMIN")优先级高）
                 .antMatchers("/**").hasAnyRole("USER", "ADMIN") // 有USER/ADMIN角色均可
                 .anyRequest().authenticated() // (除上述忽略请求)所有的请求都需要权限认证
                 .and()
-            .formLogin()
+                .formLogin()
                 .loginPage("/manage/login").permitAll() // 登录界面(Get)和登录处理方法(Post).
                 .loginProcessingUrl("/manage/login") // 或者通配符/**/login拦截对"/manage/login"和"/login"等的POST请求(登录请求。具体逻辑不需要写，并且会自动生成此端点的control，否则和loginPage一致)
                 .successHandler(authenticationSuccessHandler) // 此处定义登录成功处理方法。默认登录成功后，如果从登录界面登录则跳到项目主页(http://localhost:9526)，如果从其他页面跳转到登录页面进行登录则成功后跳转到原始页面
                 .failureHandler(authenticationFailureHandler)
                 .authenticationDetailsSource(authenticationDetailsSource)
                 .and()
-            // .logout().permitAll() // 默认访问/logout(Get)即可登出
-            .logout().logoutUrl("/manage/logout").logoutSuccessUrl("/manage/login").permitAll()
+                // .logout().permitAll() // 默认访问/logout(Get)即可登出
+                .logout().logoutUrl("/manage/logout").logoutSuccessUrl("/manage/login").permitAll()
                 .and()
-            .exceptionHandling().accessDeniedHandler(accessDeniedHandler);
+                .exceptionHandling().accessDeniedHandler(accessDeniedHandler);
     }
 }
 

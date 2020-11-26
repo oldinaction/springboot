@@ -26,7 +26,6 @@
         </dependency>
 
 
-
         <!-- 可省略，主要用于生成端点信息 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

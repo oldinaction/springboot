@@ -25,18 +25,18 @@ public class QQCallbackController {
     RestTemplate restTemplate;
 
     @RequestMapping("/get_info")
-    public String getToken(@RequestParam String code){
+    public String getToken(@RequestParam String code) {
         // 1.获取token
         log.info("receive code => {}", code);
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
-        MultiValueMap<String, String> params= new LinkedMultiValueMap<>();
-        params.add("grant_type","authorization_code");
-        params.add("code",code);
-        params.add("client_id","aiqiyi");
-        params.add("client_secret","my-secret-888888");
-        params.add("redirect_uri","http://localhost:9090/jump"); // 此时地址必须和请求认证的回调地址一模一样
+        MultiValueMap<String, String> params = new LinkedMultiValueMap<>();
+        params.add("grant_type", "authorization_code");
+        params.add("code", code);
+        params.add("client_id", "aiqiyi");
+        params.add("client_secret", "my-secret-888888");
+        params.add("redirect_uri", "http://localhost:9090/jump"); // 此时地址必须和请求认证的回调地址一模一样
         HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity<>(params, headers);
         ResponseEntity<String> response = restTemplate.postForEntity("http://localhost:8080/oauth/token", requestEntity, String.class);
         String token = response.getBody();

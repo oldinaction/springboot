@@ -17,10 +17,11 @@ public class DynamicDataSource extends AbstractRoutingDataSource {
 
     /**
      * 添加数据源配置关系
+     *
      * @param dsKey
      * @param ds
      */
-    public void addDataSourceToTargetDataSource(String dsKey, DataSource ds){
+    public void addDataSourceToTargetDataSource(String dsKey, DataSource ds) {
         this.backupTargetDataSources.put(dsKey, ds);
     }
 

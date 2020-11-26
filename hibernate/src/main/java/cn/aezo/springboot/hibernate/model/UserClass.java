@@ -1,4 +1,4 @@
-package cn.aezo.springboot.exe4jaccessdb.model;
+package cn.aezo.springboot.hibernate.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

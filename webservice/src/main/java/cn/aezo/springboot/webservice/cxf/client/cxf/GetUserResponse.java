@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>getUserResponse complex type的 Java 类。
- * 
+ *
  * <p>以下模式片段指定包含在此类中的预期内容。
- * 
+ *
  * <pre>
  * &lt;complexType name="getUserResponse"&gt;
  *   &lt;complexContent&gt;
@@ -23,12 +23,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "getUserResponse", propOrder = {
-    "_return"
+        "_return"
 })
 public class GetUserResponse {
 
@@ -37,11 +35,9 @@ public class GetUserResponse {
 
     /**
      * 获取return属性的值。
-     * 
-     * @return
-     *     possible object is
-     *     {@link User }
-     *     
+     *
+     * @return possible object is
+     * {@link User }
      */
     public User getReturn() {
         return _return;
@@ -49,11 +45,9 @@ public class GetUserResponse {
 
     /**
      * 设置return属性的值。
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link User }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link User }
      */
     public void setReturn(User value) {
         this._return = value;

@@ -1,6 +1,6 @@
-package cn.aezo.springboot.exe4jaccessdb.dao;
+package cn.aezo.springboot.hibernate.dao;
 
-import cn.aezo.springboot.exe4jaccessdb.model.User;
+import cn.aezo.springboot.hibernate.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

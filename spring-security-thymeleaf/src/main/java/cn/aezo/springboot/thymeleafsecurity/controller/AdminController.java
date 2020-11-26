@@ -15,7 +15,7 @@ import java.util.Map;
 public class AdminController {
 
     @GetMapping("/login")
-	// return "/hello"; // 加上/后，打成jar包路径找不到。可以去掉/或者使用return new ModelAndView("hello");
+    // return "/hello"; // 加上/后，打成jar包路径找不到。可以去掉/或者使用return new ModelAndView("hello");
     // public String login() {
     //     return "/login";
     // }

@@ -31,7 +31,8 @@ public class User {
     // 用于spring security定义用户角色
     private String roleCode;
 
-    protected User() {}
+    protected User() {
+    }
 
     public User(String username) {
         this.username = username;

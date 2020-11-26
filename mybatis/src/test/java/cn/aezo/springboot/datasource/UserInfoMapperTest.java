@@ -1,6 +1,7 @@
 package cn.aezo.springboot.datasource;
 
 import cn.aezo.springboot.datasource.enums.HobbyEnum;
+import cn.aezo.springboot.datasource.mapper.UserMapper;
 import cn.aezo.springboot.datasource.model.UserInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.List;
+import java.util.regex.Matcher;
 
 /**
  * Created by smalle on 2017/9/9.
@@ -17,20 +18,20 @@ import java.util.List;
 @SpringBootTest
 public class UserInfoMapperTest {
     @Autowired
-    UserMapperXml userMapperXml;
+    UserMapper userMapper;
 
     @Test
     public void testFindByNickName() {
-        List<UserInfo> list = userMapperXml.findAll();
-        System.out.println("list = " + list);
-
-        UserInfo userInfo = userMapperXml.getOne(1L);
+        UserInfo userInfo = userMapper.findByNickName("${smalle}");
         System.out.println("userInfo = " + userInfo);
+
+        String str = Matcher.quoteReplacement("${smalle}${smalle}$$123{45}");
+        System.out.println("str = " + str); // \${smalle}\${smalle}\$\$123{45}
     }
 
     @Test
     public void testInsert() throws Exception {
-        userMapperXml.insert(new UserInfo("testxml", 1L, HobbyEnum.READ));
+        userMapper.insert(new UserInfo("test", 1L, HobbyEnum.READ));
     }
 
 }

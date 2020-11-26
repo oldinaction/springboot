@@ -56,19 +56,19 @@ public class OAuth2ServerConfig {
         @Override
         public void configure(HttpSecurity http) throws Exception {
             http
-                // .sessionManagement()
-                // .sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
-                // .and()
-                .requestMatchers()
-                // 保险起见，防止被主过滤器链路拦截
-                .antMatchers("/qq/**")
-                .and()
-                .authorizeRequests().anyRequest().authenticated()
-                .and()
-                .authorizeRequests()
-                .antMatchers("/qq/info/**").access("#oauth2.hasScope('get_user_info')")
-                .antMatchers("/qq/userInfo/**").access("#oauth2.hasScope('get_user_info')")
-                .antMatchers("/qq/fans/**").access("#oauth2.hasScope('get_fanslist')");
+                    // .sessionManagement()
+                    // .sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
+                    // .and()
+                    .requestMatchers()
+                    // 保险起见，防止被主过滤器链路拦截
+                    .antMatchers("/qq/**")
+                    .and()
+                    .authorizeRequests().anyRequest().authenticated()
+                    .and()
+                    .authorizeRequests()
+                    .antMatchers("/qq/info/**").access("#oauth2.hasScope('get_user_info')")
+                    .antMatchers("/qq/userInfo/**").access("#oauth2.hasScope('get_user_info')")
+                    .antMatchers("/qq/fans/**").access("#oauth2.hasScope('get_fanslist')");
         }
 
     }
@@ -129,7 +129,7 @@ public class OAuth2ServerConfig {
                     .secret("my-secret-999999")
                     .redirectUris("http://smalle.local:8082/login") // 本地hosts文件中加 `127.0.1 smalle.local` 的映射
                     .autoApprove(true)
-                    ;
+            ;
         }
 
         @Bean

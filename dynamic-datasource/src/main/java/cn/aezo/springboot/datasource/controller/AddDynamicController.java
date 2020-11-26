@@ -30,7 +30,7 @@ public class AddDynamicController {
     // 增加一个动态数据源 curl ${baseurl}/add-dynamic?dsKey=mysql-three-dynamic&dbName=test_three
     @RequestMapping("/add-dynamic")
     public String AddDynamic(String dsKey, String dbName) {
-        if(null == dsKey && dbName == null) return "dsKey,dbName不能为空";
+        if (null == dsKey && dbName == null) return "dsKey,dbName不能为空";
 
         // 获取 DynamicDataSource。之前注册给spring 容器，这里可以通过ctx直接拿.
         ApplicationContext ctx = springContextU.getApplicationContext();
@@ -39,7 +39,7 @@ public class AddDynamicController {
         // 构建新数据源. 第一次使用才会初始化，之后切换数据源则不需重复初始化
         DataSource ds = DataSourceBuilder.create()
                 .driverClassName("com.mysql.jdbc.Driver")
-                .url("jdbc:mysql://localhost:3306/"+ dbName +"?useUnicode=true&characterEncoding=utf-8")
+                .url("jdbc:mysql://localhost:3306/" + dbName + "?useUnicode=true&characterEncoding=utf-8")
                 .username("root")
                 .password("root")
                 .type(com.zaxxer.hikari.HikariDataSource.class)

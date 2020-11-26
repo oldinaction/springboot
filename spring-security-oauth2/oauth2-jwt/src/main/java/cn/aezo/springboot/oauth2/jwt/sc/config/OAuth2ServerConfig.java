@@ -129,8 +129,8 @@ public class OAuth2ServerConfig {
                     .authorizedGrantTypes("authorization_code", "password", "client_credentials", "refresh_token")
                     .scopes("select")
                     .autoApprove(true);
-                    // .accessTokenValiditySeconds(60 * 60 * 12)
-                    // .refreshTokenValiditySeconds(60 * 60 * 12 * 30)
+            // .accessTokenValiditySeconds(60 * 60 * 12)
+            // .refreshTokenValiditySeconds(60 * 60 * 12 * 30)
         }
 
         // 告诉Spring Security Token的生成方式

@@ -27,22 +27,22 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-            .antMatchers("/oauth_login", "/loginFailure", "/")
-            .permitAll()
-            .anyRequest()
-            .authenticated()
-            .and()
-            .oauth2Login()
-            .loginPage("/oauth_login") // 自定义oauth登录页面
-            .authorizationEndpoint()
-            .baseUri("/oauth2/authorize-client") // 自定义认证端点，默认是/oauth2/authorization
-            .authorizationRequestRepository(authorizationRequestRepository())
-            .and()
-            .tokenEndpoint()
-            .accessTokenResponseClient(accessTokenResponseClient()) // 自定义token处理
-            .and()
-            .defaultSuccessUrl("/loginSuccess")
-            .failureUrl("/loginFailure");
+                .antMatchers("/oauth_login", "/loginFailure", "/")
+                .permitAll()
+                .anyRequest()
+                .authenticated()
+                .and()
+                .oauth2Login()
+                .loginPage("/oauth_login") // 自定义oauth登录页面
+                .authorizationEndpoint()
+                .baseUri("/oauth2/authorize-client") // 自定义认证端点，默认是/oauth2/authorization
+                .authorizationRequestRepository(authorizationRequestRepository())
+                .and()
+                .tokenEndpoint()
+                .accessTokenResponseClient(accessTokenResponseClient()) // 自定义token处理
+                .and()
+                .defaultSuccessUrl("/loginSuccess")
+                .failureUrl("/loginFailure");
     }
 
     @Bean
@@ -58,7 +58,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
-
     // 自定义客户端
     // additional configuration for non-Spring Boot projects
     private static List<String> clients = Arrays.asList("google", "facebook");
@@ -66,9 +65,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     //@Bean
     public ClientRegistrationRepository clientRegistrationRepository() {
         List<ClientRegistration> registrations = clients.stream()
-            .map(c -> getRegistration(c))
-            .filter(registration -> registration != null)
-            .collect(Collectors.toList());
+                .map(c -> getRegistration(c))
+                .filter(registration -> registration != null)
+                .collect(Collectors.toList());
 
         return new InMemoryClientRegistrationRepository(registrations);
     }
@@ -88,15 +87,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         String clientSecret = env.getProperty(CLIENT_PROPERTY_KEY + client + ".client-secret");
         if (client.equals("google")) {
             return CommonOAuth2Provider.GOOGLE.getBuilder(client)
-                .clientId(clientId)
-                .clientSecret(clientSecret)
-                .build();
+                    .clientId(clientId)
+                    .clientSecret(clientSecret)
+                    .build();
         }
         if (client.equals("facebook")) {
             return CommonOAuth2Provider.FACEBOOK.getBuilder(client)
-                .clientId(clientId)
-                .clientSecret(clientSecret)
-                .build();
+                    .clientId(clientId)
+                    .clientSecret(clientSecret)
+                    .build();
         }
         return null;
     }

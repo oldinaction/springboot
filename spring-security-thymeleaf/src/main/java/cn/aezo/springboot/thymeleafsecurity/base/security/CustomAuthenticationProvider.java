@@ -37,23 +37,23 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
         final String password = authentication.getCredentials().toString();
 
         UserDetails userDetails = null;
-        if(!StringUtils.isEmpty(username) && !StringUtils.isEmpty(password)) {
+        if (!StringUtils.isEmpty(username) && !StringUtils.isEmpty(password)) {
             try {
                 userDetails = customUserDetailsService.loadUserByUsername(username);
 
-                if(userDetails == null || userDetails.getPassword() == null || !password.equals(userDetails.getPassword())) {
+                if (userDetails == null || userDetails.getPassword() == null || !password.equals(userDetails.getPassword())) {
                     throw new BadCredentialsException("密码错误(invalid password)");
                 }
             } catch (UsernameNotFoundException e) {
                 e.printStackTrace();
             }
-        } else if(!StringUtils.isEmpty(wxCode)) {
+        } else if (!StringUtils.isEmpty(wxCode)) {
             userDetails = customUserDetailsService.loadUserByWxCode(wxCode);
         } else {
             throw new RuntimeException("invalid params: username,password and wxCode are invalid");
         }
 
-        if(userDetails != null) {
+        if (userDetails != null) {
             final List<GrantedAuthority> grantedAuths = (List<GrantedAuthority>) userDetails.getAuthorities();
             final Authentication auth = new UsernamePasswordAuthenticationToken(userDetails, password, grantedAuths);
             return auth;

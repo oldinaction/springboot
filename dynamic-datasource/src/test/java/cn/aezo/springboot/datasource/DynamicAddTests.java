@@ -40,7 +40,7 @@ public class DynamicAddTests {
             @Override
             public void runTest() throws Throwable {
                 // 测试内容
-                if(Thread.currentThread().getId() % 2 == 0) {
+                if (Thread.currentThread().getId() % 2 == 0) {
                     test("mysql-one-dynamic", "dsKey = mysql-one-dynamic, data = [{password=123456, id=1, username=smalle}]");
                 } else {
                     test("mysql-two-dynamic", "dsKey = mysql-two-dynamic, data = [{password=ABC123, id=1, username=test_two}]");

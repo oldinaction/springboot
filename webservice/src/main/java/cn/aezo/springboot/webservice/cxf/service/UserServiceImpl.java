@@ -10,9 +10,9 @@ import java.util.Map;
 
 
 @WebService(
-    serviceName = "UserServiceWeb", // 服务名(默认UserServiceImplService)
-    targetNamespace = "http://service.cxf.webservice.springboot.aezo.cn/", // 实现类包名倒写 (默认，可省略，基于JAX-WS调用服务会用到)
-    endpointInterface = "cn.aezo.springboot.webservice.cxf.service.UserService" // 接口的全路径
+        serviceName = "UserServiceWeb", // 服务名(默认UserServiceImplService)
+        targetNamespace = "http://service.cxf.webservice.springboot.aezo.cn/", // 实现类包名倒写 (默认，可省略，基于JAX-WS调用服务会用到)
+        endpointInterface = "cn.aezo.springboot.webservice.cxf.service.UserService" // 接口的全路径
 )
 @Service
 public class UserServiceImpl implements UserService {
@@ -45,6 +45,7 @@ public class UserServiceImpl implements UserService {
     public String getName(String userId) {
         return "id-" + userId + "_" + System.currentTimeMillis();
     }
+
     @Override
     public User getUser(String userId) {
         User user = userMap.get(userId);
@@ -54,7 +55,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public ArrayList<User> getAllUser() {
         ArrayList<User> users = new ArrayList<>();
-        for(Map.Entry<String, User> entry : userMap.entrySet()) {
+        for (Map.Entry<String, User> entry : userMap.entrySet()) {
             users.add(entry.getValue());
         }
         return users;

@@ -38,7 +38,7 @@ public class OAuth2ServerConfig {
         @Override
         public void configure(HttpSecurity http) throws Exception {
             http.authorizeRequests()
-                .antMatchers("/order/**").authenticated(); // 配置order访问控制，必须认证过后才可以访问
+                    .antMatchers("/order/**").authenticated(); // 配置order访问控制，必须认证过后才可以访问
         }
     }
 

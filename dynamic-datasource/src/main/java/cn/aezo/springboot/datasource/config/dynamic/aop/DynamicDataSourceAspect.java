@@ -16,14 +16,14 @@ public class DynamicDataSourceAspect {
 
     // AbstractRoutingDataSource 只支持单库事务，也就是说切换数据源要在开启事务之前执行
     @Before("@annotation(DS)")
-    public void beforeSwitchDS(JoinPoint point){
+    public void beforeSwitchDS(JoinPoint point) {
         //获得当前访问的class
         Class<?> className = point.getTarget().getClass();
 
         //获得访问的方法名
         String methodName = point.getSignature().getName();
         //得到方法的参数的类型
-        Class[] argClass = ((MethodSignature)point.getSignature()).getParameterTypes();
+        Class[] argClass = ((MethodSignature) point.getSignature()).getParameterTypes();
         String dsKey = ThreadLocalDSKey.DEFAULT_DS_KEY;
         try {
             // 得到访问的方法对象

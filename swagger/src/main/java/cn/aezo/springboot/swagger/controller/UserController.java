@@ -46,7 +46,8 @@ public class UserController {
     @DeleteMapping("/{id}")
     @ApiOperation(value = "删除用户（DONE）")
     @ApiImplicitParam(name = "id", value = "用户编号")
-    public void delete(@PathVariable Long id) {}
+    public void delete(@PathVariable Long id) {
+    }
 
     // 如果是 POST PUT 这种带 @RequestBody 的可以不用写 @ApiImplicitParam
     @PostMapping
@@ -58,5 +59,6 @@ public class UserController {
     // 省略 @ApiImplicitParam，那么 swagger 也会使用默认的参数名作为描述信息
     @PutMapping("/{id}")
     @ApiOperation(value = "修改用户（DONE）")
-    public void put(@PathVariable Long id, @RequestBody User user) { }
+    public void put(@PathVariable Long id, @RequestBody User user) {
+    }
 }

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--http://www.mybatis.org/mybatis-3/zh/sqlmap-xml.html#-->
 <!--sql映射文件: namespace必须为实现接口名；每个sql是一个statement-->
-<mapper namespace="cn.aezo.springboot.datasource.UserMapperXml">
+<mapper namespace="cn.aezo.springboot.datasource.mapperxml.UserMapperXml">
     <!--resultMap结果集映射定义(用来描述如何从数据库结果集中来加载对象). resultType 与resultMap 不能并用-->
     <resultMap id="UserInfoResultMap" type="cn.aezo.springboot.datasource.model.UserInfo">
         <!--设置mybatis.configuration.map-underscore-to-camel-case=true则会自动对格式进行转换, 无效下面转换-->
@@ -11,7 +11,7 @@
     </resultMap>
 
     <!--sql:可被其他语句引用的可重用语句块. id:唯一的标识符，可被其它语句引用-->
-    <sql id="UserInfoColumns"> id, group_id, nick_name, hobby </sql>
+    <sql id="UserInfoColumns">id, group_id, nick_name, hobby</sql>
 
     <!--id对应接口的方法名; resultType 与resultMap 不能并用; -->
     <!-- statementType: STATEMENT(statement)、PREPARED(preparedstatement, 默认)、CALLABLE(callablestatement)-->
@@ -20,6 +20,8 @@
         select
         <include refid="UserInfoColumns"/>
         from user_info
+        where 1=1
+        <if test="nickName != null and nickName == 'test'">and nick_name = #{nickName}</if>
     </select>
 
     <!--parameterType传入参数类型. 使用typeAliases进行类型别名映射后可写成resultType="userInfo"(自动扫描包mybatis.type-aliases-package, 默认该包下的类名首字母小写为别名) -->

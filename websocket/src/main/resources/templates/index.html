@@ -1,100 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- 基于angular.js -->
-<script src="//cdn.bootcss.com/angular.js/1.5.6/angular.min.js"></script>
+  <!-- 基于angular.js -->
+  <script src="//cdn.bootcss.com/angular.js/1.5.6/angular.min.js"></script>
 
-<!-- websocket所需js库 -->
-<script src="https://cdn.bootcss.com/sockjs-client/1.1.4/sockjs.min.js"></script>
-<script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
-<script type="text/javascript">
-var stompClient = null;
-var app = angular.module('app', []);
-app.controller('MainController', function($rootScope, $scope, $http) {
-	$scope.data = {
-		username: '', // 用户名
-		toUser: '',
-		connected : false, //连接状态
-		message : '', //消息
-		rows : [] // 消息历史
-	};
+  <!-- websocket所需js库 -->
+  <script src="https://cdn.bootcss.com/sockjs-client/1.1.4/sockjs.min.js"></script>
+  <script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+  <script type="text/javascript">
+    var stompClient = null;
+    var app = angular.module('app', []);
+    app.controller('MainController', function ($rootScope, $scope, $http) {
+      $scope.data = {
+        username: '', // 用户名
+        toUser: '',
+        connected: false, //连接状态
+        message: '', //消息
+        rows: [] // 消息历史
+      };
 
-	//连接
-	$scope.connect = function() {
-		var socket = new SockJS('/ws/aezo'); // websocket后台定义的stomp端点
-		stompClient = Stomp.over(socket);
-		stompClient.connect({}, function(frame) {
-			// 注册发送消息
-			stompClient.subscribe('/topic/send', function(msg) {
-				$scope.data.rows.push(JSON.parse(msg.body));
-				$scope.data.connected = true;
-				$scope.$apply();
-			});
-			// 注册推送时间回调
-			stompClient.subscribe('/topic/callback', function(r) {
-				$scope.data.time = '当前服务器时间：' + r.body;
-				$scope.data.connected = true;
-				$scope.$apply();
-			});
-			// 注册接受私信
-			stompClient.subscribe('/user/'+ $scope.data.username +'/private', function(msg) {
-				$scope.data.rows.push(JSON.parse(msg.body));
-				$scope.data.connected = true;
-				$scope.$apply();
-			});
+      //连接
+      $scope.connect = function () {
+        var socket = new SockJS('/ws/aezo'); // websocket后台定义的stomp端点
+        stompClient = Stomp.over(socket);
+        stompClient.connect({}, function (frame) {
+          // 注册发送消息
+          stompClient.subscribe('/topic/send', function (msg) {
+            $scope.data.rows.push(JSON.parse(msg.body));
+            $scope.data.connected = true;
+            $scope.$apply();
+          });
+          // 注册推送时间回调
+          stompClient.subscribe('/topic/callback', function (r) {
+            $scope.data.time = '当前服务器时间：' + r.body;
+            $scope.data.connected = true;
+            $scope.$apply();
+          });
+          // 注册接受私信
+          stompClient.subscribe('/user/' + $scope.data.username + '/private', function (msg) {
+            $scope.data.rows.push(JSON.parse(msg.body));
+            $scope.data.connected = true;
+            $scope.$apply();
+          });
 
-			$scope.data.connected = true;
-			$scope.$apply();
-		});
-	};
+          $scope.data.connected = true;
+          $scope.$apply();
+        });
+      };
 
-	// 断开连接
-	$scope.disconnect = function() {
-		if (stompClient != null) {
-			stompClient.disconnect();
-		}
-		$scope.data.connected = false;
-	}
+      // 断开连接
+      $scope.disconnect = function () {
+        if (stompClient != null) {
+          stompClient.disconnect();
+        }
+        $scope.data.connected = false;
+      }
 
-	// 发送消息
-	$scope.send = function() {
-		stompClient.send("/app/send", {}, JSON.stringify({
-			'toUser': $scope.data.toUser,
-			'message': $scope.data.message
-		}));
-	}
-});
-</script>
+      // 发送消息
+      $scope.send = function () {
+        stompClient.send("/app/send", {}, JSON.stringify({
+          'toUser': $scope.data.toUser,
+          'message': $scope.data.message
+        }));
+      }
+    });
+  </script>
 </head>
 <body ng-app="app" ng-controller="MainController">
-	<label>WebSocket连接状态:</label>
-	<input type="text" ng-model="data.username" placeholder="请输入用户名" />
-	<button type="button" ng-disabled="data.connected" ng-click="connect()">连接</button>
-	<button type="button" ng-click="disconnect()" ng-disabled="!data.connected">断开</button>
-	<br />
-	<br />
-	<div ng-show="data.connected">
-		<label>{{data.time}}</label> <br /> <br />
+<label>WebSocket连接状态:</label>
+<input type="text" ng-model="data.username" placeholder="请输入用户名"/>
+<button type="button" ng-disabled="data.connected" ng-click="connect()">连接</button>
+<button type="button" ng-click="disconnect()" ng-disabled="!data.connected">断开</button>
+<br/>
+<br/>
+<div ng-show="data.connected">
+  <label>{{data.time}}</label> <br/> <br/>
 
-		<input type="text" ng-model="data.message" placeholder="请输入内容..." />
-		<input type="text" ng-model="data.toUser" placeholder="指定用户名(留空为所有人)" />
-		<button ng-click="send()" type="button">发送</button>
+  <input type="text" ng-model="data.message" placeholder="请输入内容..."/>
+  <input type="text" ng-model="data.toUser" placeholder="指定用户名(留空为所有人)"/>
+  <button ng-click="send()" type="button">发送</button>
 
-		<br /> <br /> 消息列表： <br />
-		<table>
-			<thead>
-				<tr>
-					<th>内容</th>
-					<th>时间</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr ng-repeat="row in data.rows">
-					<td>{{row.message}}</td>
-					<td>{{row.date}}</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+  <br/> <br/> 消息列表： <br/>
+  <table>
+    <thead>
+    <tr>
+      <th>内容</th>
+      <th>时间</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="row in data.rows">
+      <td>{{row.message}}</td>
+      <td>{{row.date}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
 </body>
 </html>

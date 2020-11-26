@@ -26,7 +26,7 @@ public class QQProviderController {
 
     // oauth2 客户端手动获取用户信息测试
     @RequestMapping("/info")
-    public Map<String, Object> info(@RequestParam("access_token") String accessToken){
+    public Map<String, Object> info(@RequestParam("access_token") String accessToken) {
         OAuth2Authentication oAuth2Authentication = oauth2Utils.getAuthenticationInOauth2Server(accessToken);
         User user = ((User) oAuth2Authentication.getUserAuthentication().getPrincipal());
         QQAccount account = InMemoryQQDatabase.database.get(user.getUsername());
@@ -39,7 +39,7 @@ public class QQProviderController {
     }
 
     @RequestMapping("/fans")
-    public List<QQAccount> fans(@RequestParam("access_token") String accessToken){
+    public List<QQAccount> fans(@RequestParam("access_token") String accessToken) {
         OAuth2Authentication oAuth2Authentication = oauth2Utils.getAuthenticationInOauth2Server(accessToken);
         User user = ((User) oAuth2Authentication.getUserAuthentication().getPrincipal());
         return InMemoryQQDatabase.database.get(user.getUsername()).getFans();
@@ -47,7 +47,7 @@ public class QQProviderController {
 
     // oauth2客户端自动配置获取用户信息测试. Authorization: Bearer 39277f60-e2af-4abc-891f-89f711660edc
     @RequestMapping("/userInfo")
-    public Map<String, Object> userInfo(HttpServletRequest request){
+    public Map<String, Object> userInfo(HttpServletRequest request) {
         String authorization = request.getHeader("Authorization");
         Assert.notNull(authorization, "Header[Authorization] cannot be null");
 
