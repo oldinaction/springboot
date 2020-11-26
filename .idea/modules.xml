@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/busi-pay/busi-pay.iml" filepath="$PROJECT_DIR$/busi-pay/busi-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-druid/db-druid.iml" filepath="$PROJECT_DIR$/db-druid/db-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-datasource/dynamic-datasource.iml" filepath="$PROJECT_DIR$/dynamic-datasource/dynamic-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-aiqiyi/oauth2-authorization-code-aiqiyi.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-aiqiyi/oauth2-authorization-code-aiqiyi.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-qq/oauth2-authorization-code-qq.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-qq/oauth2-authorization-code-qq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/oauth2-authorization-code-sso.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/oauth2-authorization-code-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-youku/oauth2-authorization-code-youku.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-youku/oauth2-authorization-code-youku.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-client-password/oauth2-client-password.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/oauth2-client-password/oauth2-client-password.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-jwt/oauth2-jwt.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/oauth2-jwt/oauth2-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" filepath="$PROJECT_DIR$/spring-data-rest/spring-data-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-security-oauth2/spring-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-thymeleaf/spring-security-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-security-thymeleaf/spring-security-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/swagger/swagger.iml" filepath="$PROJECT_DIR$/swagger/swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/webservice/webservice.iml" filepath="$PROJECT_DIR$/webservice/webservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-exe4j-accessdb/z-exe4j-accessdb.iml" filepath="$PROJECT_DIR$/z-exe4j-accessdb/z-exe4j-accessdb.iml" />
     </modules>
   </component>
 </project>
