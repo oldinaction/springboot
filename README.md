@@ -1,5 +1,6 @@
 ## 目录
 
+- `db-druid`(2.3.4)
 - `helloworld`(1.5.6)
 - `hibernate`(1.5.6, mysql)
 - `mybatis`(1.5.6)
