@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="510e1b2a-b872-4af3-a8b7-fa186f91db29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/db-druid/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/ColumnTableAliasVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/DbDruidApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-druid/src/test/java/cn/aezo/springboot/druid/dbdruid/DbDruidApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-oauth2/authorization-code/aiqiyi/oauth2-authorization-code-aiqiyi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/WebserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/CreateSqlParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/SelectSqlParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/ColumnTableAliasVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/visitor/ColumnTableAliasVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-druid/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/db-druid/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-druid/src/test/java/cn/aezo/springboot/druid/dbdruid/DbDruidApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/db-druid/src/test/java/cn/aezo/springboot/druid/dbdruid/DbDruidApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-youku/oauth2-authorization-code-youku.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-youku/oauth2-authorization-code-youku.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/helloworld/target/" />
     <ignored path="$PROJECT_DIR$/hibernate/target/" />
@@ -47,11 +39,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fields</find>
+      <find>sqlInSubQueryExpr</find>
+      <find>qlExistsExpr.getSubQuery</find>
+      <find>sqlExistsExpr.getSubQuery</find>
+      <find>sqlSelect.getQuery()</find>
+      <find>SQLSubqueryTableSource</find>
+      <find>SQLSelect</find>
+      <find>sqlQueryExpr</find>
+      <find>sqlQueryExpr.getQuery()</find>
+      <find>sqlSelectQuery1</find>
+      <find>parseWhere.sqlSelectQuery1</find>
+      <find>fl_name</find>
+      <find>SQLInSubQueryExpr</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="smalle &lt;oldinaction@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -71,10 +96,17 @@
         <option value="$PROJECT_DIR$/db-druid/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hibernate/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/db-druid/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/db-druid/src/test/java/cn/aezo/springboot/druid/dbdruid/DbDruidApplicationTests.java" />
+        <option value="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/CreateSqlParse.java" />
+        <option value="$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/SelectSqlParse.java" />
+        <option value="$PROJECT_DIR$/db-druid/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/Readme.md" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -108,8 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,11 +147,18 @@
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,41 +205,73 @@
     </option>
     <option name="contentProportion" value="0.21746203" />
   </component>
-  <component name="RunManager" selected="JUnit.DbDruidApplicationTests.test1">
+  <component name="RunManager" selected="Spring Boot.Oauth2QQApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DbDruidApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateSqlParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.druid.dbdruid.sqlparse.CreateSqlParse" />
       <module name="db-druid" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.druid.dbdruid.*" />
+          <option name="PATTERN" value="cn.aezo.springboot.druid.dbdruid.sqlparse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.aezo.springboot.druid.dbdruid" />
-      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.druid.dbdruid.DbDruidApplicationTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+    </configuration>
+    <configuration name="Oauth2SsoClient1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.oauth2.sso.client1.Oauth2SsoClient1Application" />
+      <module name="oauth2-authorization-code-sso" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.aezo.springboot.oauth2.sso.client1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Oauth2SsoClient2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.oauth2.sso.client2.Oauth2SsoClient2Application" />
+      <module name="oauth2-authorization-code-sso" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.aezo.springboot.oauth2.sso.client2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Oauth2SsoResourceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.oauth2.sso.resource.Oauth2SsoResourceApplication" />
+      <module name="oauth2-authorization-code-sso" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.aezo.springboot.oauth2.sso.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SelectSqlParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.aezo.springboot.druid.dbdruid.sqlparse.SelectSqlParse" />
+      <module name="db-druid" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.aezo.springboot.druid.dbdruid.sqlparse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="DbDruidApplicationTests.test1" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="db-druid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.druid.dbdruid.*" />
+          <option name="PATTERN" value="cn.aezo.springboot.druid.dbdruid.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,7 +314,7 @@
       <module name="db-druid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.aezo.springboot.druid.dbdruid.*" />
+          <option name="PATTERN" value="cn.aezo.springboot.druid.dbdruid.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,6 +367,10 @@
     <configuration name="Oauth2YoukuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="oauth2-authorization-code-youku" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.oauth2.youku.Oauth2YoukuApplication" />
+    </configuration>
+    <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="busi-pay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.aezo.springboot.busi.pay.PayApplication" />
     </configuration>
     <configuration name="RabbitMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rabbitmq" />
@@ -401,11 +474,20 @@
       <item itemvalue="Spring Boot.Oauth2YoukuApplication" />
       <item itemvalue="Spring Boot.Oauth2AiqiyiApplication" />
       <item itemvalue="Spring Boot.DbDruidApplication" />
-      <item itemvalue="JUnit.DbDruidApplicationTests" />
+      <item itemvalue="Application.CreateSqlParse" />
+      <item itemvalue="Application.SelectSqlParse" />
+      <item itemvalue="Spring Boot.PayApplication" />
+      <item itemvalue="Application.Oauth2SsoClient1Application" />
+      <item itemvalue="Application.Oauth2SsoClient2Application" />
+      <item itemvalue="Application.Oauth2SsoResourceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DbDruidApplicationTests" />
+        <item itemvalue="Application.Oauth2SsoResourceApplication" />
+        <item itemvalue="Application.Oauth2SsoClient2Application" />
+        <item itemvalue="Application.Oauth2SsoClient1Application" />
+        <item itemvalue="Application.SelectSqlParse" />
+        <item itemvalue="Application.CreateSqlParse" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +501,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606390187867</updated>
-      <workItem from="1606390190813" duration="3022000" />
+      <workItem from="1606390190813" duration="4102000" />
+      <workItem from="1606453102910" duration="12679000" />
+      <workItem from="1612027917691" duration="249000" />
+      <workItem from="1621589923365" duration="2302000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1606391605127</created>
@@ -428,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606391605127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="up">
+      <created>1606393848952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606393848952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -440,7 +532,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3022000" />
+    <option name="totallyTimeSpent" value="19332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,15 +546,17 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+      <window_info anchor="right" auto_hide="true" id="Key Promoter X" order="0" side_tool="true" type="SLIDING" weight="0.31626666" />
       <window_info anchor="right" id="PlantUML" order="12" sideWeight="0.49888143" weight="0.304" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="RestServices" order="21" weight="0.3296" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012903" side_tool="true" weight="0.27404922" />
       <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.5010661" side_tool="true" weight="0.2673378" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.4966443" weight="0.23413333" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="MyBatis Log" order="24" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="right" id="Flutter Outline" order="13" show_stripe_button="false" sideWeight="0.49888143" weight="0.3296" />
+      <window_info anchor="bottom" id="MyBatis Log" order="24" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="18" sideWeight="0.49888143" weight="0.28693333" />
@@ -470,59 +564,173 @@
       <window_info anchor="right" auto_hide="true" id="Translate" internal_type="SLIDING" order="15" show_stripe_button="false" type="SLIDING" weight="0.3296" />
       <window_info anchor="right" id="Ant Build" order="8" sideWeight="0.49888143" weight="0.2496" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4989339" weight="0.34787473" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4989339" weight="0.30089486" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.45973155" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49840087" weight="0.28970918" />
+      <window_info anchor="right" x="496" y="73" width="928" height="894" id="Codota" order="20" weight="0.29386666" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run Dashboard" order="1" weight="0.36129755" />
+      <window_info anchor="bottom" id="Run Dashboard" order="1" weight="0.32214764" />
       <window_info anchor="bottom" id="Flutter Performance" order="22" show_stripe_button="false" sideWeight="0.50159913" side_tool="true" weight="0.2785235" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49870968" weight="0.3165548" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" visible="true" weight="0.31208053" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" weight="0.17673378" />
       <window_info anchor="right" id="leetcode" order="0" sideWeight="0.50111854" side_tool="true" weight="0.28693333" />
-      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49870968" weight="0.40604028" />
+      <window_info anchor="bottom" id="Sequence" order="25" />
       <window_info anchor="bottom" id="Spring" order="17" weight="0.32997763" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33892617" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5262238" visible="true" weight="0.248" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5262238" visible="true" weight="0.256" />
+      <window_info anchor="bottom" id="Problems" order="27" sideWeight="0.49973333" weight="0.32885906" />
       <window_info anchor="right" id="Bean Validation" order="9" show_stripe_button="false" sideWeight="0.49888143" weight="0.2224" />
-      <window_info id="JRebel" order="7" show_stripe_button="false" sideWeight="0.5080386" side_tool="true" weight="0.17750533" />
       <window_info id="Web" order="8" sideWeight="0.50782996" side_tool="true" weight="0.17750533" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32997763" />
+      <window_info id="JRebel" order="7" show_stripe_button="false" sideWeight="0.5080386" side_tool="true" weight="0.17750533" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" sideWeight="0.51007754" side_tool="true" weight="0.22334754" />
       <window_info anchor="right" id="Flutter Inspector" order="14" show_stripe_button="false" sideWeight="0.49888143" weight="0.3296" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.38255033" />
-      <window_info anchor="bottom" id="Docker" order="21" show_stripe_button="false" />
-      <window_info anchor="right" id="Gradle" order="11" sideWeight="0.49888143" weight="0.3296" />
-      <window_info id="Persistence" order="9" side_tool="true" />
-      <window_info anchor="right" id="jclasslib" order="16" weight="0.42537314" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="REST Client" order="8" weight="0.4082774" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Struts Assistant" order="10" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="17" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="JProfiler" order="19" weight="0.32997763" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="23" />
       <window_info anchor="bottom" id="Application Servers" order="20" weight="0.32997763" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info id="Struts Assistant" order="10" />
+      <window_info anchor="right" id="jclasslib" order="16" weight="0.42537314" />
+      <window_info anchor="bottom" id="TypeScript" order="26" weight="0.32997763" />
+      <window_info anchor="bottom" id="Inspection Results" order="28" weight="0.32997763" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.38255033" />
+      <window_info anchor="bottom" id="Docker" order="21" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="23" />
+      <window_info anchor="bottom" id="Jindent" order="29" weight="0.21029083" />
+      <window_info id="Persistence" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32997763" />
+      <window_info anchor="bottom" id="REST Client" order="8" weight="0.4082774" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="11" sideWeight="0.49888143" weight="0.3296" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="17" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="druid" />
     <MESSAGE value="up" />
     <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="26" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>visitor.getColumns()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SQLQueryExpr) subRight).getSubQuery().getQuery()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SQLQueryExpr) subRight).getSubQuery()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SQLQueryExpr) subRight)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(SQLQueryExpr) subRight</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>subRight instanceof SQLQueryExpr</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.alibaba.druid.sql.ast.expr.SQLQueryExpr</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sqlSelect.getQuery()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SQLBinaryOpExpr) right).getRight()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>right</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/CreateSqlParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/SelectSqlParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3401">
+          <caret line="193" column="23" selection-start-line="193" selection-start-column="23" selection-end-line="193" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-druid/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld/src/main/java/cn/aezo/springboot/hello/SpringbootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -530,54 +738,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db-druid/src/test/java/cn/aezo/springboot/druid/dbdruid/ParseSqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db-druid/src/test/java/cn/aezo/springboot/druid/dbdruid/ParseSqlTest.java" />
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/cn/aezo/springboot/datasource/sqlstr/SqlStrTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="120" column="87" selection-start-line="120" selection-start-column="87" selection-end-line="120" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.3.4.RELEASE/spring-boot-starter-2.3.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/ColumnTableAliasVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -588,22 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webservice/src/main/java/cn/aezo/springboot/webservice/WebserviceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db-druid/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -635,20 +788,238 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/statement/SQLSelectItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2908">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/parser/SQLParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2248">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db-druid/src/test/java/cn/aezo/springboot/druid/dbdruid/DbDruidApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="38">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/expr/SQLBinaryOpExpr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/expr/SQLValuesExpr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/SQLExprImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/expr/SQLInSubQueryExpr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/SQLObjectImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/expr/SQLExistsExpr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleSelectQueryBlock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/expr/SQLQueryExpr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/statement/SQLSelect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.17/druid-1.1.17.jar!/com/alibaba/druid/sql/ast/statement/SQLUnionQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-druid/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/SelectSqlParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="193" column="23" selection-start-line="193" selection-start-column="23" selection-end-line="193" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db-druid/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/sqlparse/CreateSqlParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-druid/src/main/java/cn/aezo/springboot/druid/dbdruid/visitor/ColumnTableAliasVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/busi-pay/src/main/java/cn/aezo/springboot/busi/pay/controller/AliPayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-jwt/src/main/resources/application-sc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-client-password/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-jwt/src/main/resources/application-res.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-jwt/src/main/resources/application-ac.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/src/main/resources/application-client1.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/src/main/java/cn/aezo/springboot/oauth2/sso/resource/Oauth2SsoResourceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-qq/src/main/java/cn/aezo/springboot/oauth2/qq/Oauth2QQApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/src/main/java/cn/aezo/springboot/oauth2/sso/client2/Oauth2SsoClient2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-qq/src/main/java/cn/aezo/springboot/oauth2/qq/config/OAuth2ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-qq/src/main/java/cn/aezo/springboot/oauth2/qq/config/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2/oauth2-authorization-code/oauth2-authorization-code-sso/src/main/java/cn/aezo/springboot/oauth2/sso/client1/Oauth2SsoClient1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>

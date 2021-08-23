@@ -1,4 +1,4 @@
-package cn.aezo.springboot.druid.dbdruid;
+package cn.aezo.springboot.druid.dbdruid.visitor;
 
 import com.alibaba.druid.sql.ast.SQLObject;
 import com.alibaba.druid.sql.ast.statement.SQLColumnDefinition;
